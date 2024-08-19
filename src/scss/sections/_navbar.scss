@@ -1,0 +1,12 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.menu {
+  @include media-breakpoint-up(md) {
+    ul {
+      display: flex;
+      align-items: center;
+    }
+  }
+  @include gradient;
+}

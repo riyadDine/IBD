@@ -1,0 +1,25 @@
+//Theme
+$greeny: #2a6a4c;
+$mod: #353159;
+
+//White n gray
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+//PRIMARY AND SECONDARY COLORS
+$primary: $greeny;
+$secondary: $mod;
+
+// ACCORDION
+
+//Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
