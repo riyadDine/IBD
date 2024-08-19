@@ -1,0 +1,29 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.avis {
+  @include gradient;
+
+  &__carte {
+    background-color: $dark;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.75rem;
+
+    i {
+      color: $primary;
+      font-size: 1.5rem;
+    }
+
+    .notes {
+      i {
+        font-size: 1rem;
+      }
+    }
+  }
+  &__nom {
+    text-align: center;
+    padding: 0 1.6rem;
+  }
+}
