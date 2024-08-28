@@ -1,0 +1,43 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.faq {
+  .accordion {
+    .accordion-item {
+      border: none;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 8px rgba($secondary, 0.2);
+
+      .accordion-header {
+        button {
+          font-size: 1.2rem;
+          font-weight: bold;
+          padding: 1rem;
+          border-radius: 5px;
+
+          &:hover {
+            background-color: rgba($primary, 0.2);
+            color: $primary;
+          }
+        }
+      }
+
+      .accordion-body {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        line-height: 1.7;
+        border-top: 1px solid $gray-400;
+      }
+    }
+  }
+
+  .text-muted {
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

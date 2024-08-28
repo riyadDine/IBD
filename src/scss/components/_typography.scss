@@ -1,3 +1,16 @@
+@use "../components/mixins" as *;
+
 .headings-font {
   font-family: "Poppins", sans-serif;
+}
+
+.underline {
+  width: 75%;
+  height: 5px;
+  border-radius: 5px;
+  margin: 1rem auto 2rem;
+}
+
+.grad-mod {
+  @include gradient;
 }

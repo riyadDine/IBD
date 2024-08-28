@@ -1,15 +1,19 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
-.avis {
-  @include gradient;
-
+.temoignages {
   &__carte {
-    background-color: $dark;
+    background-color: $black;
     text-align: center;
-    padding: 1.5rem 1rem;
+    color: $white;
+    min-height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.5rem 1rem;
     margin: 0.5rem;
     border-radius: 0.75rem;
+    box-shadow: 0 4px 15px rgba($black, 0.2);
 
     i {
       color: $primary;
@@ -17,13 +21,21 @@
     }
 
     .notes {
+      margin-top: 1rem;
+
       i {
         font-size: 1rem;
       }
     }
+
+    @media only screen and (max-width: 768px) {
+      min-height: 370px;
+    }
   }
+
   &__nom {
     text-align: center;
     padding: 0 1.6rem;
+    font-weight: bold;
   }
 }
