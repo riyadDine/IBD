@@ -1,5 +1,4 @@
 @use "../custom" as *;
-@use "../components/mixins" as *;
 
 .temoignages {
   &__carte {
@@ -28,7 +27,7 @@
       }
     }
 
-    @media only screen and (max-width: 768px) {
+    @include media-breakpoint-down(md) {
       min-height: 370px;
     }
   }

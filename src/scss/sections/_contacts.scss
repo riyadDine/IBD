@@ -1,11 +1,19 @@
 @use "../custom" as *;
+@use "../components/mixins" as *;
 
 .contact {
-  p {
-    margin-bottom: 2rem;
-  }
+  @include gradient;
+  padding-top: 4.5rem;
+  padding-bottom: 2rem;
 
   form {
+    background: $white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 6px 8px 8px rgba($dark, 0.5);
+    max-width: 850px;
+    margin: 0 auto;
+
     label {
       font-weight: bold;
     }

@@ -3,4 +3,86 @@
 
 .footer {
   background-color: $footer;
+  padding: 1rem 0 0.5rem;
+
+  &__top {
+    margin: 0 auto;
+    justify-content: space-between;
+    h5 {
+      color: $gray-200;
+      padding-bottom: 0.4rem;
+    }
+
+    &--list {
+      list-style-type: none;
+      padding-left: 0;
+      color: $gray-400;
+
+      li {
+        padding-bottom: 0.2rem;
+        i {
+          font-size: 1.2rem;
+          margin-right: 1rem;
+        }
+
+        a {
+          color: $gray-400;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: $primary;
+          text-decoration: underline;
+        }
+      }
+    }
+    @include media-breakpoint-up(lg) {
+      width: 70%;
+    }
+  }
+
+  &__mid {
+    background-color: $gray-900;
+    margin-top: 0.3rem;
+    margin-bottom: 0.7rem;
+    height: 3.5rem;
+    h5 {
+      color: $gray-400;
+    }
+
+    li {
+      i {
+        font-size: 2.2rem;
+      }
+      a {
+        color: $gray-400;
+        text-decoration: none;
+        margin-left: 0.7rem;
+      }
+      a:hover {
+        color: $gray-100;
+      }
+    }
+  }
+
+  &__bot {
+    font-weight: lighter;
+    color: $gray-500;
+    text-align: center;
+
+    a {
+      color: $gray-500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $gray-200;
+      text-decoration: underline;
+      font-weight: 400;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    text-align: center;
+  }
 }

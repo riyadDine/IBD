@@ -1,4 +1,9 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
 .services {
+  padding-top: 3rem;
+
   .photo-album {
     display: flex;
     flex-direction: column;
@@ -7,7 +12,7 @@
     height: auto;
 
     &--box {
-      @media (min-width: 768px) {
+      @include media-breakpoint-up(md) {
         max-width: 75%;
         overflow: hidden;
         margin: 0 auto;
@@ -23,13 +28,19 @@
 
     &__track--dg {
       animation: scroll-dg 30s linear infinite;
+      img {
+        box-shadow: 2px 3px 5px rgba($dark, 0.3);
+      }
     }
 
     &__track--gd {
       animation: scroll-gd 30s linear infinite;
+      img {
+        box-shadow: -2px 3px 5px rgba($dark, 0.3);
+      }
     }
 
-    @media (max-width: 480px) {
+    @include media-breakpoint-down(md) {
       img {
         height: 150px;
       }
@@ -59,5 +70,10 @@
     height: 200px;
     object-fit: cover;
     margin: 0.5rem 0.2rem;
+    border-radius: 0.3rem;
+  }
+
+  .gradient-svg {
+    @include gradient;
   }
 }

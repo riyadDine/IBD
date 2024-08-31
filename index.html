@@ -1,867 +1,1135 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Institut Bonté Divine : Spécialisé en transformation agroalimentaire et savonnerie." />
+    <meta
+      name="keywords"
+      content="Agroalimentaire, Savonnerie, Savon, Formation, Entrepreneuriat, Produits bio" />
+    <meta name="author" content="Riyad Dine" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="./images/logo.ico" type="image/x-icon" />
+    <title>Institut Bonté Divine</title>
+    <link rel="stylesheet" href="./dist/css/styles.min.css" />
+    <link rel="stylesheet" href="./dist/css/fontawesome.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Institut Bonté Divine : Spécialisé en transformation agroalimentaire et savonnerie." />
-  <meta name="keywords" content="Agroalimentaire, Savonnerie, Savon, Formation, Entrepreneuriat, Produits bio" />
-  <meta name="author" content="Riyad Dine" />
-  <meta name="robots" content="index, follow" />
-  <link rel="icon" href="./images/logo.ico" type="image/x-icon" />
-  <title>Institut Bonté Divine</title>
-  <link rel="stylesheet" href="./dist/css/styles.min.css" />
-  <link rel="stylesheet" href="./dist/css/fontawesome.min.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <!-- Navbar -->
-  <!-- pensez à voir lequel capitaliser -->
-  <nav class="navbar px-1 px-md-2 px-lg-5 navbar-expand-md navbar-dark shadow fixed-top menu">
-    <div class="container-fluid">
-      <a class="navbar-brand d-flex align-items-center" href="#intro">
-        <img src="images/logo.ico" alt="logo" width="30" height="30" class="rounded-1" />
-        <span class="ms-2 d-md-none d-lg-block">Institut Bonté Divine</span>
-        <span class="ms-2 d-none d-md-block d-lg-none">IBD</span>
-      </a>
-      <!--toggle-->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav text-uppercase text-nowrap">
-          <li class="nav-item"></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#intro">À Propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Nos Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#formations">Formations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#temoignages">Témoignages</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#faq">Faq</a>
-          </li>
-          <li class="nav-item btn btn-dark">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Intro section -->
-  <section id="intro" class="intro">
-    <div class="background-diaporama">
-      <!-- Images en arrière plan -->
-      <div class="bg-img bg-img-1"></div>
-      <div class="bg-img bg-img-2"></div>
-      <div class="bg-img bg-img-3"></div>
-      <div class="bg-img bg-img-4"></div>
-      <div class="bg-img bg-img-5"></div>
-      <div class="bg-img bg-img-6"></div>
-    </div>
-
-    <!-- Superposition -->
-    <div class="superposition"></div>
-
-    <div class="container-lg position-relative text-light">
-      <div class="mt-5 px-md-4">
-        <div class=" headings-font">
-          <h1 class="display-5 fw-bold mb-4">
-            Découvrez un univers d'opportunités infinies, où chaque pas est une aventure vers l'épanouissement.
-          </h1>
-          <p class="lead mb-5">
-            Bienvenue à l'<span class="fw-bold">Institut Bonté Divine</span>, votre centre de référence en
-            transformation agroalimentaire et savonnerie artisanale. </p>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
-          <a class="btn btn-lg btn-outline-light fw-medium text-nowrap" href="#contact">Contactez-nous</a>
-          <a class="btn btn-lg btn-outline-light fw-medium text-nowrap" href="#formations">En savoir plus <i
-              class="fa-solid fa-arrow-right-long"></i></a>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Services section -->
-  <section id="services" class="py-5 services">
-    <div class="container-lg">
-      <h2 class="headings-font text-center display-5 fw-bolder pt-5 mb-3 mb-md-4 ">
-        Nos Services
-        <div class="grad-mod underline"></div>
-      </h2>
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="p-4 bg-light rounded shadow-sm">
-            <div class="d-flex align-items-center justify-content-center mb-3">
-              <i class="fa-solid fa-graduation-cap fa-2x me-3"></i>
-              <h3 class="mb-0">Éduquer</h3>
-            </div>
-            <p class="mb-3">
-              Nous nous engageons à fournir des connaissances et des compétences pour aider chacun à atteindre son
-              potentiel maximum.
-            </p>
-            <ul class=" mt-3">
-              <li>Formations certifiées</li>
-              <li>Approche personnalisée</li>
-              <li>Apprentissage interactif</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="p-4 bg-light rounded shadow-sm">
-            <div class="d-flex align-items-center justify-content-center mb-3">
-              <i class="fa-solid fa-cogs fa-2x me-3"></i>
-              <h3 class="mb-0">S'adapter</h3>
-            </div>
-            <p class="mb-3">
-              Nous savons qu'il est essentiel de s'ajuster aux besoins et aux défis changeants pour garantir une
-              croissance continue et durable.
-            </p>
-            <ul class=" mt-3">
-              <li>Solutions sur mesure</li>
-              <li>Flexibilité et réactivité</li>
-              <li>Amélioration continue</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="p-4 bg-light rounded shadow-sm">
-            <div class="d-flex align-items-center justify-content-center mb-3">
-              <i class="fa-solid fa-lightbulb fa-2x me-3"></i>
-              <h3 class="mb-0">Innover</h3>
-            </div>
-            <p class="mb-3">
-              Nous cherchons constamment à innover et à introduire de nouvelles idées pour améliorer nos services et
-              répondre aux attentes de nos clients.
-            </p>
-            <ul class=" mt-3">
-              <li>Recherche et développement</li>
-              <li>Solutions innovantes</li>
-              <li>Adaptation aux tendances</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <p class="text-center mb-4">
-        Découvrez les services variés que nous offrons pour vous aider à atteindre vos objectifs personnels et
-        professionnels.
-      </p>
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card text-bg-light border-light shadow-sm">
-            <div class="card-body">
-              <h3 class="text-md-center">Savonnerie</h3>
-              <hr />
-              <p class="card-text">
-                Nous vous proposons des savons de haute qualité, fabriqués à partir d’ingrédients naturels pour offrir
-                des soins exceptionnels à votre peau. Ils sont soigneusement conçus pour répondre à des besoins
-                spécifiques et garantir des bienfaits optimaux.
-              </p>
-              <ul class=" mt-3">
-                <li>Ingrédients naturels</li>
-                <li>Soins adaptés aux besoins spécifiques</li>
-                <li>Packaging éco-responsable</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card text-bg-light border-light shadow-sm">
-            <div class="card-body">
-              <h3 class="text-md-center">Boissons</h3>
-              <hr />
-              <p class="card-text">
-                Nos produits offrent une touche de fraîcheur et de plaisir tout en contribuant à une alimentation
-                équilibrée. Découvrez notre gamme de jus, yaourts et cocktails, conçus pour ravir vos papilles et
-                satisfaire les besoins nutritionnels de toute la famille.
-              </p>
-              <ul class=" mt-3">
-                <li>Produits naturels</li>
-                <li>Riches en nutriments essentiels</li>
-                <li>Saveurs authentiques</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card text-bg-light border-light shadow-sm">
-            <div class="card-body">
-              <h3 class="text-md-center">Formations</h3>
-              <hr />
-              <p class="card-text">
-                Nous proposons une variété de programmes pour vous aider à développer vos compétences et atteindre vos
-                objectifs professionnels. Ils couvrent divers domaines pour soutenir votre développement personnel et
-                réussir dans l'entrepreneuriat.
-              </p>
-              <ul class=" mt-3">
-                <li>Programmes certifiés</li>
-                <li>Accompagnement personnalisé</li>
-                <li>Ressources pédagogiques de qualité</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Photo Album -->
-      <div class="photo-album">
-        <div class="text-center mt-4 px-3">
-          <h3>Explorez Notre Savoir-Faire en Action</h3>
-          <p>Explorez une sélection d'images illustrant notre travail, de la formation à la production de savons.
-            Laissez-vous inspirer par notre expertise et nos réalisations.</p>
-        </div>
-
-        <div class="photo-album--box">
-          <div class="photo-album__track photo-album__track--dg">
-            <img src="./images/grid/grid 1.jpeg" alt="Image 1">
-            <img src="./images/grid/grid 2.jpeg" alt="Image 2">
-            <img src="./images/grid/grid 3.jpeg" alt="Image 3">
-            <img src="./images/grid/grid 4.jpeg" alt="Image 4">
-            <img src="./images/grid/grid 5.jpeg" alt="Image 5">
-            <!-- dupliquer -->
-            <img src="./images/grid/grid 1.jpeg" alt="Image 1">
-            <img src="./images/grid/grid 2.jpeg" alt="Image 2">
-            <img src="./images/grid/grid 3.jpeg" alt="Image 3">
-            <img src="./images/grid/grid 4.jpeg" alt="Image 4">
-            <img src="./images/grid/grid 5.jpeg" alt="Image 5">
-          </div>
-          <div class="photo-album__track photo-album__track--gd ">
-            <img src="./images/grid/grid 6.jpeg" alt="Image 6">
-            <img src="./images/grid/grid 7.jpeg" alt="Image 7">
-            <img src="./images/grid/grid 8.jpeg" alt="Image 8">
-            <img src="./images/grid/grid 9.jpeg" alt="Image 9">
-            <img src="./images/grid/grid 10.jpeg" alt="Image 10">
-            <!-- dupliquer -->
-            <img src="./images/grid/grid 6.jpeg" alt="Image 6">
-            <img src="./images/grid/grid 7.jpeg" alt="Image 7">
-            <img src="./images/grid/grid 8.jpeg" alt="Image 8">
-            <img src="./images/grid/grid 9.jpeg" alt="Image 9">
-            <img src="./images/grid/grid 10.jpeg" alt="Image 10">
-          </div>
-        </div>
-      </div>
-
-      <div class="text-center mt-5">
-        <a href="#contact" class="btn btn-outline-dark btn-lg px-3 py-2">
-          Contactez-nous pour en savoir plus sur tous nos services
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar px-1 px-md-2 px-lg-5 navbar-expand-md navbar-dark shadow fixed-top menu">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#intro">
+          <img
+            src="images/logo.ico"
+            alt="logo"
+            width="30"
+            height="30"
+            class="rounded-1" />
+          <span class="ms-2 d-md-none d-lg-block">Institut Bonté Divine</span>
+          <span class="ms-2 d-none d-md-block d-lg-none">IBD</span>
         </a>
+        <!--toggle-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav">
+          <ul class="navbar-nav text-uppercase text-nowrap">
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">À Propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Nos Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formations">Formations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#temoignages">Témoignages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">Faq</a>
+            </li>
+            <li class="nav-item btn btn-dark btn-sm">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- Formations section -->
-  <section id="formations" class="formations ">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,192L34.3,176C68.6,160,137,128,206,149.3C274.3,171,343,245,411,234.7C480,224,549,128,617,90.7C685.7,53,754,75,823,117.3C891.4,160,960,224,1029,229.3C1097.1,235,1166,181,1234,165.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
-      </path>
-    </svg>
-    <div class="container-lg">
-      <div class="text-center px-2">
-        <h2 class="headings-font display-5 fw-bolder mb-3 mb-md-4 ">
-          Nos Formations
-          <div class="underline bg-white"></div>
-        </h2>
-
-        <p class=" mb-4">
-          Découvrez nos formations complètes conçues pour développer vos
-          compétences et vous préparer à exceller dans divers domaines :
-        </p>
+    <!-- Intro section -->
+    <section id="intro" class="intro">
+      <div class="background-diaporama">
+        <!-- Images en arrière plan -->
+        <div class="bg-img bg-img-1"></div>
+        <div class="bg-img bg-img-2"></div>
+        <div class="bg-img bg-img-3"></div>
+        <div class="bg-img bg-img-4"></div>
+        <div class="bg-img bg-img-5"></div>
+        <div class="bg-img bg-img-6"></div>
       </div>
 
-      <div class="px-3">
-        <div class="card mb-3">
-          <div class="card-header">
-            <h3>Formation en Savonnerie</h3>
-          </div>
-          <div class="card-body">
-            <p>
-              Maîtrisez la fabrication de savons artisanaux de haute qualité
-              avec des ingrédients naturels et des techniques de saponification
-              à froid. Cette formation vous guidera à travers chaque étape, de
-              la conception à la réalisation de produits de soin personnalisés
-              pour différents besoins.
-            </p>
-            <button class="btn btn-primary mod-collapse" type="button" data-bs-toggle="collapse"
-              data-bs-target="#savonnerieDetails" aria-expanded="false" aria-controls="savonnerieDetails">
-              En savoir plus
-            </button>
-            <div class="collapse mt-3" id="savonnerieDetails">
-              <p>
-                Cette formation est parfaite pour ceux qui souhaitent créer des
-                savons uniques et maîtriser l’art de la savonnerie.
-              </p>
-              <h4>Ce que vous apprendrez :</h4>
-              <ul>
-                <li>Techniques de fabrication de savons artisanaux.</li>
-                <li>Utilisation d’ingrédients naturels et bio.</li>
-                <li>Création de formules personnalisées et innovations.</li>
-                <li>Gestion de la production et des ventes.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <!-- Superposition -->
+      <div class="superposition"></div>
 
-        <div class="card mb-3">
-          <div class="card-header">
-            <h3>Formation en Agriculture</h3>
-          </div>
-          <div class="card-body">
-            <p>
-              Explorez les techniques modernes et traditionnelles de culture
-              pour une compréhension approfondie de l'agriculture. Apprenez à
-              gérer les ressources, optimiser les rendements et appliquer des
-              pratiques durables pour réussir dans le domaine agricole.
+      <div class="container-lg position-relative text-light">
+        <div class="mt-5 px-md-4">
+          <div class="headings-font">
+            <h1 class="display-5 fw-bold mb-4">
+              Découvrez un univers d'opportunités infinies, où chaque pas est
+              une aventure vers l'épanouissement.
+            </h1>
+            <p class="lead mb-5">
+              Bienvenue à l'<span class="fw-bold">Institut Bonté Divine</span>,
+              votre centre de référence en transformation agroalimentaire et
+              savonnerie artisanale.
             </p>
-            <button class="btn btn-primary mod-collapse" type="button" data-bs-toggle="collapse"
-              data-bs-target="#agricultureDetails" aria-expanded="false" aria-controls="agricultureDetails">
-              En savoir plus
-            </button>
-            <div class="collapse mt-3" id="agricultureDetails">
-              <p>
-                Cette formation est conçue pour vous enseigner les meilleures
-                pratiques agricoles, améliorer la productivité et adopter des
-                méthodes durables.
-              </p>
-              <h4>Ce que vous apprendrez :</h4>
-              <ul>
-                <li>
-                  Techniques avancées de culture et de gestion des cultures.
-                </li>
-                <li>Utilisation des technologies agricoles modernes.</li>
-                <li>
-                  Gestion des ressources naturelles et optimisation des
-                  rendements.
-                </li>
-                <li>
-                  Pratiques durables pour minimiser l'impact environnemental.
-                </li>
-              </ul>
-            </div>
           </div>
-        </div>
-
-        <div class="card mb-3">
-          <div class="card-header">
-            <h3>Formation en Transformation Agroalimentaire</h3>
-          </div>
-          <div class="card-body">
-            <p>
-              Découvrez le processus de transformation des matières premières
-              agricoles en produits alimentaires finis. Apprenez à manipuler les
-              ingrédients, appliquer les techniques de transformation, et
-              garantir la qualité des produits pour répondre aux exigences du
-              marché.
-            </p>
-            <button class="btn btn-primary mod-collapse" type="button" data-bs-toggle="collapse"
-              data-bs-target="#agroalimentaireDetails" aria-expanded="false" aria-controls="agroalimentaireDetails">
-              En savoir plus
-            </button>
-            <div class="collapse mt-3" id="agroalimentaireDetails">
-              <p>
-                Cette formation vous fournira les compétences nécessaires pour
-                transformer les matières premières en produits alimentaires de
-                haute qualité.
-              </p>
-              <h4>Ce que vous apprendrez :</h4>
-              <ul>
-                <li>Techniques de transformation des matières premières.</li>
-                <li>Gestion de la qualité des produits alimentaires.</li>
-                <li>Innovations dans le secteur agroalimentaire.</li>
-                <li>Normes de sécurité alimentaire et réglementation.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3">
-          <div class="card-header">
-            <h3>Formation en Rédaction de Projet</h3>
-          </div>
-          <div class="card-body">
-            <p>
-              Perfectionnez l'art de rédiger des propositions claires et
-              convaincantes. Apprenez à structurer vos documents, analyser les
-              besoins, et élaborer des budgets pour maximiser vos chances de
-              succès dans l'obtention de financements et soutiens.
-            </p>
-            <button class="btn btn-primary mod-collapse" type="button" data-bs-toggle="collapse"
-              data-bs-target="#redactionDetails" aria-expanded="false" aria-controls="redactionDetails">
-              En savoir plus
-            </button>
-            <div class="collapse mt-3" id="redactionDetails">
-              <p>
-                Maîtrisez les techniques pour rédiger des propositions efficaces
-                et séduire les investisseurs et partenaires.
-              </p>
-              <h4>Ce que vous apprendrez :</h4>
-              <ul>
-                <li>Techniques de rédaction de propositions convaincantes.</li>
-                <li>Structuration des documents et présentation.</li>
-                <li>Analyse des besoins et élaboration de budgets.</li>
-                <li>
-                  Stratégies pour captiver les investisseurs et partenaires.
-                </li>
-              </ul>
-            </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-center gap-3">
+            <a
+              class="btn btn-lg btn-outline-light fw-medium text-nowrap"
+              href="#contact"
+              >Contactez-nous</a
+            >
+            <a
+              class="btn btn-lg btn-outline-light fw-medium text-nowrap"
+              href="#formations"
+              >En savoir plus <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="text-center mt-5 px-2">
-        <a href="#contact" class="btn btn-outline-light btn-lg fw-bold">
-          Contactez-nous pour en savoir plus sur nos formations
-        </a>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,128L34.3,144C68.6,160,137,192,206,170.7C274.3,149,343,75,411,85.3C480,96,549,192,617,229.3C685.7,267,754,245,823,202.7C891.4,160,960,96,1029,90.7C1097.1,85,1166,139,1234,154.7C1302.9,171,1371,149,1406,138.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-
-  <!-- Temoignage section -->
-  <section id="temoignages" class="temoignages py-5">
-    <div class="container-lg">
-      <div class="text-center">
-        <h2 class="headings-font display-5 fw-bolder pt-5 mb-3 mb-md-4 ">
-          Témoignages
+    <!-- Services section -->
+    <section id="services" class="services">
+      <div class="container-lg">
+        <h2
+          class="headings-font text-center display-5 fw-bolder pt-5 mb-3 mb-md-4">
+          Nos Services
           <div class="grad-mod underline"></div>
-
         </h2>
-        <p class="mb-4">
-          Découvrez ce que nos clients disent de nos produits et formations.
-          Voici quelques témoignages qui reflètent leur satisfaction et leurs
-          expériences avec nous.
-        </p>
-      </div>
-
-      <div class="row align-items-center">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner ">
-            <!-- témoignages 1 -->
-            <div class="carousel-item active">
-              <div class="temoignages__carte">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  Nous aimons beaucoup le savon au curcuma et au miel. Ça rafraîchit la peau.
-                  <i class="fas fa-quote-right"></i>
-                <div class="notes">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-                <h3 class="temoignages__nom">GAINSI Grâce Julia & GAINSI Wilfried</h3>
-              </div>
-            </div>
-
-            <!-- témoignages 2 -->
-            <div class="carousel-item">
-              <div class="temoignages__carte">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  C'était une formation en ligne en transformation agroalimentaire, mais très explicite et
-                  enrichissante. Je n'ai pas eu de difficulté à réaliser l'un des produits de la formation (le yaourt au
-                  coco). Mon entourage l'a trouvé succulent. Je recommande!
-                  <i class="fas fa-quote-right"></i>
-                <div class="notes">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-                <h3 class="temoignages__nom">Mlle Ursule</h3>
-              </div>
-            </div>
-
-            <!-- témoignages 3 -->
-            <div class="carousel-item">
-              <div class="temoignages__carte">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  Mes enfants et moi n'utilisons plus que le savon au miel. C'est un vrai bonheur de l'utiliser.
-                  <i class="fas fa-quote-right"></i>
-                <div class="notes">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-                <h3 class="temoignages__nom">Mlle KOUKOU</h3>
-              </div>
-            </div>
-
-            <!-- témoignages 4 -->
-            <div class="carousel-item">
-              <div class="temoignages__carte">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  Producteur d'ananas, j'aimerais étendre mes activités à la production de jus. J'ai donc contacté
-                  l'Institut Bonté Divine pour me former, et ce fut une réussite inégalée. Je recommande.
-                  <i class="fas fa-quote-right"></i>
-                <div class="notes">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-                <h3 class="temoignages__nom">Bienvenu OGOUDOUNSI</h3>
-              </div>
-            </div>
-
-            <!-- témoignages 5 -->
-            <div class="carousel-item">
-              <div class="temoignages__carte">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  Je suis satisfaite de la formation en transformation agroalimentaire que j'ai suivie en ligne. C'était
-                  différent des formations précédentes que j'ai suivies.
-                  <i class="fas fa-quote-right"></i>
-                <div class="notes">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-                <h3 class="temoignages__nom">Bona TOURE</h3>
-              </div>
-            </div>
-
-            <!-- témoignages 6 -->
-            <div class="carousel-item">
-              <div class="temoignages__carte">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  J'ai aimé le savon au curcuma, même si j'utilise un peu de tout. Celui-ci fait vraiment la différence.
-                  <i class="fas fa-quote-right"></i>
-                <div class="notes">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-                <h3 class="temoignages__nom">Mlle Prisca</h3>
-              </div>
-            </div>
-          </div>
-
-          <!-- Carousel Controls -->
-          <div class="text-center pt-4">
-            <button class="btn btn-outline-dark" type="button" data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="prev">
-              <i class="fas fa-long-arrow-alt-left"></i>
-              <span class="visually-hidden">Précédent</span>
-            </button>
-            <button class="btn btn-outline-dark" type="button" data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="next">
-              <i class="fas fa-long-arrow-alt-right"></i>
-              <span class="visually-hidden">Suivant</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-
-  </section>
-
-  <!-- FAQ section -->
-  <section id="faq" class="py-5 bg-light faq">
-    <div class="container-lg ">
-      <div class="text-center mb-5">
-        <h2 class="headings-font display-5 fw-bolder pt-5 mb-3 mb-md-4 ">
-          FAQ
-          <div class="grad-mod underline"></div>
-
-        </h2>
-        <p class="mb-4 lead">
-          Bienvenue dans notre Foire Aux Questions ! Nous avons rassemblé ici
-          les réponses aux questions les plus fréquemment posées concernant
-          nos formations et services. Que vous soyez un futur participant ou
-          que vous cherchiez simplement à en savoir plus, nous espérons que
-          cette section répondra à vos interrogations.
-        </p>
-      </div>
-
-      <div class="accordion" id="faqAccordion">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-              aria-expanded="true" aria-controls="collapseOne">
-              Quels sont les prérequis pour s'inscrire à vos formations ?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Nos formations sont ouvertes à tous, quel que soit votre niveau
-              de compétence. Que vous soyez débutant ou expérimenté, nos
-              programmes sont conçus pour répondre à vos besoins spécifiques.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Quelle est la durée de vos formations ?
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              La durée de nos formations varie selon le programme. En général,
-              nos formations s'étendent sur [X jours/semaine/mois]. Pour des
-              informations spécifiques, veuillez nous contacter directement.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Les formations sont-elles dispensées en ligne ou en présentiel ?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Oui, nos formations sont disponibles à la fois en ligne et en présentiel. Cela permet à nos participants
-              de choisir l'option qui leur convient le mieux, selon leurs besoins et leurs disponibilités.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Y a-t-il des frais d'inscription pour vos programmes ?
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Oui, chaque programme a des frais d'inscription spécifiques.
-              Pour obtenir des détails précis, nous vous encourageons à nous
-              contacter directement.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              Puis-je obtenir une certification après avoir terminé une
-              formation ?
-            </button>
-          </h2>
-          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Oui, après avoir complété avec succès l'une de nos formations,
-              vous recevrez un certificat attestant de votre participation et
-              des compétences acquises.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSix">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              Comment puis-je m'inscrire à une formation ou à un service ?
-            </button>
-          </h2>
-          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Vous pouvez vous inscrire en ligne via notre site web en
-              visitant la page spécifique du programme qui vous intéresse.
-              Suivez les instructions pour compléter votre inscription.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSeven">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-              Offrez-vous un soutien après la formation ?
-            </button>
-          </h2>
-          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Oui, nous offrons un soutien continu après la formation. Vous
-              pouvez nous contacter pour obtenir des conseils, des ressources
-              supplémentaires, ou toute autre assistance dont vous pourriez
-              avoir besoin.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingEight">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-              Puis-je visiter l'institut avant de m'inscrire ?
-            </button>
-          </h2>
-          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Absolument, nous serions ravis de vous accueillir. N'hésitez pas
-              à nous contacter pour planifier votre visite !
-            </div>
-          </div>
-        </div>
-      </div>
-      <p class="mt-5 text-center text-muted">
-        Vous avez d'autres questions ? Nous serions ravis de vous aider !
-        <a href="#contact" class="text-primary fw-medium">Contactez-nous dès maintenant</a>
-        pour obtenir des réponses personnalisées et discuter de vos besoins
-        spécifiques.
-      </p>
-    </div>
-  </section>
-
-  <!-- Contact section -->
-  <section id="contact" class="py-5 bg-light contact">
-    <div class="container-lg">
-
-      <div class="text-center mb-5">
-        <h2 class="headings-font display-5 fw-bolder pt-5 mb-3 mb-md-4 ">Contactez-nous
-          <div class="grad-mod underline"></div>
-
-        </h2>
-        <p class="mb-4 lead">Si vous avez des questions ou souhaitez en savoir plus sur nos
-          services et formations, nous sommes là pour vous aider.
-        </p>
-      </div>
-
-
-      <form action="https://formspree.io/f/mzzpggzz" method="post">
         <div class="row">
-          <div class="mb-3 col-md-6">
-            <label for="name" class="form-label">Nom Complet</label>
-            <input type="text" class="form-control" id="name" name="Nom du client" placeholder="Votre nom" required />
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-light rounded shadow-sm">
+              <div
+                class="d-flex align-items-center justify-content-center mb-3">
+                <i class="fa-solid fa-graduation-cap fa-2x me-3"></i>
+                <h3 class="mb-0">Éduquer</h3>
+              </div>
+              <p class="mb-3">
+                Nous nous engageons à fournir des connaissances et des
+                compétences pour aider chacun à atteindre son potentiel maximum.
+              </p>
+              <ul class="mt-3">
+                <li>Formations certifiées</li>
+                <li>Approche personnalisée</li>
+                <li>Apprentissage interactif</li>
+              </ul>
+            </div>
           </div>
-          <div class="mb-3 col-md-6">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="Email" placeholder="Votre adresse email"
-              required />
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-light rounded shadow-sm">
+              <div
+                class="d-flex align-items-center justify-content-center mb-3">
+                <i class="fa-solid fa-cogs fa-2x me-3"></i>
+                <h3 class="mb-0">S'adapter</h3>
+              </div>
+              <p class="mb-3">
+                Nous savons qu'il est essentiel de s'ajuster aux besoins et aux
+                défis changeants pour garantir une croissance continue et
+                durable.
+              </p>
+              <ul class="mt-3">
+                <li>Solutions sur mesure</li>
+                <li>Flexibilité et réactivité</li>
+                <li>Amélioration continue</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-light rounded shadow-sm">
+              <div
+                class="d-flex align-items-center justify-content-center mb-3">
+                <i class="fa-solid fa-lightbulb fa-2x me-3"></i>
+                <h3 class="mb-0">Innover</h3>
+              </div>
+              <p class="mb-3">
+                Nous cherchons constamment à innover et à introduire de
+                nouvelles idées pour améliorer nos services et répondre aux
+                attentes de nos clients.
+              </p>
+              <ul class="mt-3">
+                <li>Recherche et développement</li>
+                <li>Solutions innovantes</li>
+                <li>Adaptation aux tendances</li>
+              </ul>
+            </div>
           </div>
         </div>
+        <p class="text-center mb-4">
+          Découvrez les services variés que nous offrons pour vous aider à
+          atteindre vos objectifs personnels et professionnels.
+        </p>
         <div class="row">
-          <div class="mb-3 col-md-6">
-            <label for="whatsapp" class="form-label">Numéro de téléphone</label>
-            <input type="text" class="form-control" id="whatsapp" name="Numéro de téléphone - whatsapp"
-              placeholder="Votre numéro téléphone" />
+          <div class="col-md-4 mb-4">
+            <div class="card text-bg-light border-light shadow-sm">
+              <div class="card-body">
+                <h3 class="text-md-center">Savonnerie</h3>
+                <hr />
+                <p class="card-text">
+                  Nous vous proposons des savons de haute qualité, fabriqués à
+                  partir d’ingrédients naturels pour offrir des soins
+                  exceptionnels à votre peau. Ils sont soigneusement conçus pour
+                  répondre à des besoins spécifiques et garantir des bienfaits
+                  optimaux.
+                </p>
+                <ul class="mt-3">
+                  <li>Ingrédients naturels</li>
+                  <li>Soins adaptés aux besoins spécifiques</li>
+                  <li>Packaging éco-responsable</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="mb-3 col-md-6">
-            <label for="acceptWhatsapp" class="form-label">Acceptez-vous d'être contacté sur WhatsApp?</label>
-            <select class="form-select" id="acceptWhatsapp" name="Autorise message sur Whatsapp">
-              <option value="oui">Oui</option>
-              <option value="non">Non</option>
+          <div class="col-md-4 mb-4">
+            <div class="card text-bg-light border-light shadow-sm">
+              <div class="card-body">
+                <h3 class="text-md-center">Boissons</h3>
+                <hr />
+                <p class="card-text">
+                  Nos produits offrent une touche de fraîcheur et de plaisir
+                  tout en contribuant à une alimentation équilibrée. Découvrez
+                  notre gamme de jus, yaourts et cocktails, conçus pour ravir
+                  vos papilles et satisfaire les besoins nutritionnels de toute
+                  la famille.
+                </p>
+                <ul class="mt-3">
+                  <li>Produits naturels</li>
+                  <li>Riches en nutriments essentiels</li>
+                  <li>Saveurs authentiques</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card text-bg-light border-light shadow-sm">
+              <div class="card-body">
+                <h3 class="text-md-center">Formations</h3>
+                <hr />
+                <p class="card-text">
+                  Nous proposons une variété de programmes pour vous aider à
+                  développer vos compétences et atteindre vos objectifs
+                  professionnels. Ils couvrent divers domaines pour soutenir
+                  votre développement personnel et réussir dans
+                  l'entrepreneuriat.
+                </p>
+                <ul class="mt-3">
+                  <li>Programmes certifiés</li>
+                  <li>Accompagnement personnalisé</li>
+                  <li>Ressources pédagogiques de qualité</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo Album -->
+        <div class="photo-album">
+          <div class="text-center mt-4 px-3">
+            <h3>Explorez Notre Savoir-Faire en Action</h3>
+            <p>
+              Explorez une sélection d'images illustrant notre travail, de la
+              formation à la production de savons. Laissez-vous inspirer par
+              notre expertise et nos réalisations.
+            </p>
+          </div>
+
+          <div class="photo-album--box">
+            <div class="photo-album__track photo-album__track--dg">
+              <img src="./images/grid/grid 1.jpeg" alt="Image 1" />
+              <img src="./images/grid/grid 2.jpeg" alt="Image 2" />
+              <img src="./images/grid/grid 3.jpeg" alt="Image 3" />
+              <img src="./images/grid/grid 4.jpeg" alt="Image 4" />
+              <img src="./images/grid/grid 5.jpeg" alt="Image 5" />
+              <!-- dupliquer -->
+              <img src="./images/grid/grid 1.jpeg" alt="Image 1" />
+              <img src="./images/grid/grid 2.jpeg" alt="Image 2" />
+              <img src="./images/grid/grid 3.jpeg" alt="Image 3" />
+              <img src="./images/grid/grid 4.jpeg" alt="Image 4" />
+              <img src="./images/grid/grid 5.jpeg" alt="Image 5" />
+            </div>
+            <div class="photo-album__track photo-album__track--gd">
+              <img src="./images/grid/grid 6.jpeg" alt="Image 6" />
+              <img src="./images/grid/grid 7.jpeg" alt="Image 7" />
+              <img src="./images/grid/grid 8.jpeg" alt="Image 8" />
+              <img src="./images/grid/grid 9.jpeg" alt="Image 9" />
+              <img src="./images/grid/grid 10.jpeg" alt="Image 10" />
+              <!-- dupliquer -->
+              <img src="./images/grid/grid 6.jpeg" alt="Image 6" />
+              <img src="./images/grid/grid 7.jpeg" alt="Image 7" />
+              <img src="./images/grid/grid 8.jpeg" alt="Image 8" />
+              <img src="./images/grid/grid 9.jpeg" alt="Image 9" />
+              <img src="./images/grid/grid 10.jpeg" alt="Image 10" />
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center my-5">
+          <a href="#contact" class="btn btn-outline-dark btn-lg px-3 py-2">
+            Contactez-nous pour en savoir plus sur tous nos services
+          </a>
+        </div>
+      </div>
+      <svg
+        class="gradient-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L34.3,176C68.6,160,137,128,206,149.3C274.3,171,343,245,411,234.7C480,224,549,128,617,90.7C685.7,53,754,75,823,117.3C891.4,160,960,224,1029,229.3C1097.1,235,1166,181,1234,165.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path>
+      </svg>
+    </section>
+
+    <!-- Formations section -->
+    <section id="formations" class="formations">
+      <div class="container-lg">
+        <div class="text-center px-2">
+          <h2 class="headings-font display-5 fw-bolder mb-3 mb-md-4">
+            Nos Formations
+            <div class="underline bg-white"></div>
+          </h2>
+
+          <p class="mb-4">
+            Découvrez nos formations complètes conçues pour développer vos
+            compétences et vous préparer à exceller dans divers domaines :
+          </p>
+        </div>
+
+        <div class="px-3">
+          <div class="card mb-3">
+            <div class="card-header">
+              <h3>Formation en Savonnerie</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Maîtrisez la fabrication de savons artisanaux de haute qualité
+                avec des ingrédients naturels et des techniques de
+                saponification à froid. Cette formation vous guidera à travers
+                chaque étape, de la conception à la réalisation de produits de
+                soin personnalisés pour différents besoins.
+              </p>
+              <button
+                class="btn btn-primary mod-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#savonnerieDetails"
+                aria-expanded="false"
+                aria-controls="savonnerieDetails">
+                En savoir plus
+              </button>
+              <div class="collapse mt-3" id="savonnerieDetails">
+                <p>
+                  Cette formation est parfaite pour ceux qui souhaitent créer
+                  des savons uniques et maîtriser l’art de la savonnerie.
+                </p>
+                <h4>Ce que vous apprendrez :</h4>
+                <ul>
+                  <li>Techniques de fabrication de savons artisanaux.</li>
+                  <li>Utilisation d’ingrédients naturels et bio.</li>
+                  <li>Création de formules personnalisées et innovations.</li>
+                  <li>Gestion de la production et des ventes.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              <h3>Formation en Agriculture</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Explorez les techniques modernes et traditionnelles de culture
+                pour une compréhension approfondie de l'agriculture. Apprenez à
+                gérer les ressources, optimiser les rendements et appliquer des
+                pratiques durables pour réussir dans le domaine agricole.
+              </p>
+              <button
+                class="btn btn-primary mod-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#agricultureDetails"
+                aria-expanded="false"
+                aria-controls="agricultureDetails">
+                En savoir plus
+              </button>
+              <div class="collapse mt-3" id="agricultureDetails">
+                <p>
+                  Cette formation est conçue pour vous enseigner les meilleures
+                  pratiques agricoles, améliorer la productivité et adopter des
+                  méthodes durables.
+                </p>
+                <h4>Ce que vous apprendrez :</h4>
+                <ul>
+                  <li>
+                    Techniques avancées de culture et de gestion des cultures.
+                  </li>
+                  <li>Utilisation des technologies agricoles modernes.</li>
+                  <li>
+                    Gestion des ressources naturelles et optimisation des
+                    rendements.
+                  </li>
+                  <li>
+                    Pratiques durables pour minimiser l'impact environnemental.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              <h3>Formation en Transformation Agroalimentaire</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Découvrez le processus de transformation des matières premières
+                agricoles en produits alimentaires finis. Apprenez à manipuler
+                les ingrédients, appliquer les techniques de transformation, et
+                garantir la qualité des produits pour répondre aux exigences du
+                marché.
+              </p>
+              <button
+                class="btn btn-primary mod-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#agroalimentaireDetails"
+                aria-expanded="false"
+                aria-controls="agroalimentaireDetails">
+                En savoir plus
+              </button>
+              <div class="collapse mt-3" id="agroalimentaireDetails">
+                <p>
+                  Cette formation vous fournira les compétences nécessaires pour
+                  transformer les matières premières en produits alimentaires de
+                  haute qualité.
+                </p>
+                <h4>Ce que vous apprendrez :</h4>
+                <ul>
+                  <li>Techniques de transformation des matières premières.</li>
+                  <li>Gestion de la qualité des produits alimentaires.</li>
+                  <li>Innovations dans le secteur agroalimentaire.</li>
+                  <li>Normes de sécurité alimentaire et réglementation.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              <h3>Formation en Rédaction de Projet</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Perfectionnez l'art de rédiger des propositions claires et
+                convaincantes. Apprenez à structurer vos documents, analyser les
+                besoins, et élaborer des budgets pour maximiser vos chances de
+                succès dans l'obtention de financements et soutiens.
+              </p>
+              <button
+                class="btn btn-primary mod-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#redactionDetails"
+                aria-expanded="false"
+                aria-controls="redactionDetails">
+                En savoir plus
+              </button>
+              <div class="collapse mt-3" id="redactionDetails">
+                <p>
+                  Maîtrisez les techniques pour rédiger des propositions
+                  efficaces et séduire les investisseurs et partenaires.
+                </p>
+                <h4>Ce que vous apprendrez :</h4>
+                <ul>
+                  <li>
+                    Techniques de rédaction de propositions convaincantes.
+                  </li>
+                  <li>Structuration des documents et présentation.</li>
+                  <li>Analyse des besoins et élaboration de budgets.</li>
+                  <li>
+                    Stratégies pour captiver les investisseurs et partenaires.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5 px-2">
+          <a href="#contact" class="btn btn-outline-light btn-lg fw-bold">
+            Contactez-nous pour en savoir plus sur nos formations
+          </a>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,128L34.3,144C68.6,160,137,192,206,170.7C274.3,149,343,75,411,85.3C480,96,549,192,617,229.3C685.7,267,754,245,823,202.7C891.4,160,960,96,1029,90.7C1097.1,85,1166,139,1234,154.7C1302.9,171,1371,149,1406,138.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+      </svg>
+    </section>
+
+    <!-- Temoignage section -->
+    <section id="temoignages" class="temoignages py-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2 class="headings-font display-5 fw-bolder pt-5 mb-3 mb-md-4">
+            Témoignages
+            <div class="grad-mod underline"></div>
+          </h2>
+          <p class="mb-4">
+            Découvrez ce que nos clients disent de nos produits et formations.
+            Voici quelques témoignages qui reflètent leur satisfaction et leurs
+            expériences avec nous.
+          </p>
+        </div>
+
+        <div class="row align-items-center">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- témoignages 1 -->
+              <div class="carousel-item active">
+                <div class="temoignages__carte">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    Nous aimons beaucoup le savon au curcuma et au miel. Ça
+                    rafraîchit la peau.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">
+                    GAINSI Grâce Julia & GAINSI Wilfried
+                  </h3>
+                </div>
+              </div>
+
+              <!-- témoignages 2 -->
+              <div class="carousel-item">
+                <div class="temoignages__carte">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    C'était une formation en ligne en transformation
+                    agroalimentaire, mais très explicite et enrichissante. Je
+                    n'ai pas eu de difficulté à réaliser l'un des produits de la
+                    formation (le yaourt au coco). Mon entourage l'a trouvé
+                    succulent. Je recommande!
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Mlle Ursule</h3>
+                </div>
+              </div>
+
+              <!-- témoignages 3 -->
+              <div class="carousel-item">
+                <div class="temoignages__carte">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    Mes enfants et moi n'utilisons plus que le savon au miel.
+                    C'est un vrai bonheur de l'utiliser.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Mlle KOUKOU</h3>
+                </div>
+              </div>
+
+              <!-- témoignages 4 -->
+              <div class="carousel-item">
+                <div class="temoignages__carte">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    Producteur d'ananas, j'aimerais étendre mes activités à la
+                    production de jus. J'ai donc contacté l'Institut Bonté
+                    Divine pour me former, et ce fut une réussite inégalée. Je
+                    recommande.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Bienvenu OGOUDOUNSI</h3>
+                </div>
+              </div>
+
+              <!-- témoignages 5 -->
+              <div class="carousel-item">
+                <div class="temoignages__carte">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    Je suis satisfaite de la formation en transformation
+                    agroalimentaire que j'ai suivie en ligne. C'était différent
+                    des formations précédentes que j'ai suivies.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Bona TOURE</h3>
+                </div>
+              </div>
+
+              <!-- témoignages 6 -->
+              <div class="carousel-item">
+                <div class="temoignages__carte">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    J'ai aimé le savon au curcuma, même si j'utilise un peu de
+                    tout. Celui-ci fait vraiment la différence.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Mlle Prisca</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <div class="text-center pt-4">
+              <button
+                class="btn btn-outline-dark"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <i class="fas fa-long-arrow-alt-left"></i>
+                <span class="visually-hidden">Précédent</span>
+              </button>
+              <button
+                class="btn btn-outline-dark"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <i class="fas fa-long-arrow-alt-right"></i>
+                <span class="visually-hidden">Suivant</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ section -->
+    <section id="faq" class="bg-light faq">
+      <div class="container-lg">
+        <div class="text-center mb-5">
+          <h2 class="headings-font display-5 fw-bolder pt-5 mb-3 mb-md-4">
+            FAQ
+            <div class="grad-mod underline"></div>
+          </h2>
+          <p class="mb-4 lead">
+            Bienvenue dans notre Foire Aux Questions ! Nous avons rassemblé ici
+            les réponses aux questions les plus fréquemment posées concernant
+            nos formations et services. Que vous soyez un futur participant ou
+            que vous cherchiez simplement à en savoir plus, nous espérons que
+            cette section répondra à vos interrogations.
+          </p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne">
+                Quels sont les prérequis pour s'inscrire à vos formations ?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Nos formations sont ouvertes à tous, quel que soit votre niveau
+                de compétence. Que vous soyez débutant ou expérimenté, nos
+                programmes sont conçus pour répondre à vos besoins spécifiques.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo">
+                Quelle est la durée de vos formations ?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                La durée de nos formations varie selon le programme. En général,
+                nos formations s'étendent sur [X jours/semaine/mois]. Pour des
+                informations spécifiques, veuillez nous contacter directement.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree">
+                Les formations sont-elles dispensées en ligne ou en présentiel ?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Oui, nos formations sont disponibles à la fois en ligne et en
+                présentiel. Cela permet à nos participants de choisir l'option
+                qui leur convient le mieux, selon leurs besoins et leurs
+                disponibilités.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour">
+                Y a-t-il des frais d'inscription pour vos programmes ?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Oui, chaque programme a des frais d'inscription spécifiques.
+                Pour obtenir des détails précis, nous vous encourageons à nous
+                contacter directement.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive">
+                Puis-je obtenir une certification après avoir terminé une
+                formation ?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Oui, après avoir complété avec succès l'une de nos formations,
+                vous recevrez un certificat attestant de votre participation et
+                des compétences acquises.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix">
+                Comment puis-je m'inscrire à une formation ou à un service ?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSix"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Vous pouvez vous inscrire en ligne via notre site web en
+                visitant la page spécifique du programme qui vous intéresse.
+                Suivez les instructions pour compléter votre inscription.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseSeven">
+                Offrez-vous un soutien après la formation ?
+              </button>
+            </h2>
+            <div
+              id="collapseSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSeven"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Oui, nous offrons un soutien continu après la formation. Vous
+                pouvez nous contacter pour obtenir des conseils, des ressources
+                supplémentaires, ou toute autre assistance dont vous pourriez
+                avoir besoin.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseEight"
+                aria-expanded="false"
+                aria-controls="collapseEight">
+                Puis-je visiter l'institut avant de m'inscrire ?
+              </button>
+            </h2>
+            <div
+              id="collapseEight"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingEight"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Absolument, nous serions ravis de vous accueillir. N'hésitez pas
+                à nous contacter pour planifier votre visite !
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="mt-5 text-center text-muted">
+          Vous avez d'autres questions ? Nous serions ravis de vous aider !
+          <a href="#contact" class="text-primary fw-medium"
+            >Contactez-nous dès maintenant</a
+          >
+          pour obtenir des réponses personnalisées et discuter de vos besoins
+          spécifiques.
+        </p>
+      </div>
+      <svg
+        class="gradient-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320">
+        <path
+          fill="#f8f9fa"
+          fill-opacity="1"
+          d="M0,192L34.3,176C68.6,160,137,128,206,149.3C274.3,171,343,245,411,234.7C480,224,549,128,617,90.7C685.7,53,754,75,823,117.3C891.4,160,960,224,1029,229.3C1097.1,235,1166,181,1234,165.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path>
+      </svg>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact">
+      <div class="container-lg">
+        <div class="text-center text-light mb-5">
+          <h2 class="headings-font display-5 fw-bolder mb-3 mb-md-4">
+            Contactez-nous
+            <div class="bg-white underline"></div>
+          </h2>
+          <p class="mb-4 lead">
+            Si vous avez des questions ou souhaitez en savoir plus sur nos
+            services et formations, nous sommes là pour vous aider.
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/mzzpggzz" method="post">
+          <div class="row">
+            <div class="mb-3 col-md-6">
+              <label for="name" class="form-label">Nom Complet</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="Nom du client"
+                placeholder="Votre nom"
+                required />
+            </div>
+            <div class="mb-3 col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="Email"
+                placeholder="Votre adresse email"
+                required />
+            </div>
+          </div>
+          <div class="row">
+            <div class="mb-3 col-md-6">
+              <label for="whatsapp" class="form-label"
+                >Numéro de téléphone</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="whatsapp"
+                name="Numéro de téléphone - whatsapp"
+                placeholder="Votre numéro téléphone" />
+            </div>
+            <div class="mb-3 col-md-6">
+              <label for="acceptWhatsapp" class="form-label"
+                >Acceptez-vous d'être contacté sur WhatsApp?</label
+              >
+              <select
+                class="form-select"
+                id="acceptWhatsapp"
+                name="Autorise message sur Whatsapp">
+                <option value="oui">Oui</option>
+                <option value="non">Non</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="objet" class="form-label">Objet du message</label>
+            <select class="form-select" id="objet" name="Objet" required>
+              <option value="Savonnerie">Savonnerie</option>
+              <option value="Boissons">Boissons</option>
+              <option value="Formation en Savonnerie">
+                Formation en Savonnerie
+              </option>
+              <option value="Formation en Agriculture">
+                Formation en Agriculture
+              </option>
+              <option value="Formation en Transformation Agroalimentaire">
+                Formation en Transformation Agroalimentaire
+              </option>
+              <option value="Formation en Rédaction de Projet">
+                Formation en Rédaction de Projet
+              </option>
+              <option value="Autre">Autre</option>
             </select>
           </div>
-        </div>
 
-        <div class="mb-3">
-          <label for="objet" class="form-label">Objet du message</label>
-          <select class="form-select" id="objet" name="Objet" required>
-            <option value="Savonnerie">Savonnerie</option>
-            <option value="Boissons">Boissons</option>
-            <option value="Formation en Savonnerie">
-              Formation en Savonnerie
-            </option>
-            <option value="Formation en Agriculture">
-              Formation en Agriculture
-            </option>
-            <option value="Formation en Transformation Agroalimentaire">
-              Formation en Transformation Agroalimentaire
-            </option>
-            <option value="Formation en Rédaction de Projet">
-              Formation en Rédaction de Projet
-            </option>
-            <option value="Autre">Autre</option>
-          </select>
-        </div>
-
-        <div class="mb-3 autreObj">
-          <label for="autreObjText" class="form-label">Veuillez préciser l'objet</label>
-          <input type="text" class="form-control" id="autreObjText" name="Objet" placeholder="Autre objet" />
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" name="Message" rows="5" placeholder="Votre message"
-            required></textarea>
-        </div>
-        <div class="submit text-center">
-          <button type="submit" class="btn btn-primary fw-bold">Envoyer</button>
-        </div>
-      </form>
-    </div>
-  </section>
-
-
-  <!-- Footer -->
-  <!-- Bootstrap Footer -->
-  <!-- Bootstrap Footer -->
-  <footer class="footer pt-4 pb-2">
-    <div class="container">
-      <div class="row">
-        <!-- line 1: Contact Information -->
-        <div class="contact-box col-md-4 col-lg-4 pt-1">
-
-        </div>
-
-
-
-
-        <!-- line 2: Useful Links -->
-
-        <!-- line 3: Social Media and Copyright -->
-
+          <div class="mb-3 autreObj">
+            <label for="autreObjText" class="form-label"
+              >Veuillez préciser l'objet</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="autreObjText"
+              name="Objet"
+              placeholder="Autre objet" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="Message"
+              rows="5"
+              placeholder="Votre message"
+              required></textarea>
+          </div>
+          <div class="submit text-center">
+            <button type="submit" class="btn btn-primary fw-bold">
+              Envoyer
+            </button>
+          </div>
+        </form>
       </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- Bootstrap JavaScript -->
-  <script src="./dist/js/bootstrap.bundle.js"></script>
-  <script src="./src/js/script.js"></script>
-</body>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container-fluid p-0">
+        <div class="row footer__top">
+          <!-- Horaires Col -->
+          <div class="col-md-4 ms-md-3">
+            <h5 class="d-none d-md-block">Horaires</h5>
+            <ul class="footer__top--list">
+              <li>Lundi - Vendredi: 9h00 - 18h00</li>
+              <li>Samedi: 9h00 - 16h00</li>
+              <li>Dimanche: Fermé</li>
+            </ul>
+          </div>
+          <!-- Contacts Col -->
+          <div class="col-md-4">
+            <h5 class="d-none d-md-block">Contact</h5>
+            <ul class="footer__top--list">
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:contact@ibd.com">contact@ibd.com</a>
+              </li>
+              <li><i class="fa-solid fa-phone"></i>+229 69 05 73 94</li>
+              <li><i class="fa-solid fa-phone"></i>+229 99 47 81 02</li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>OKE-ATTA, Pobè, Benin
+              </li>
+            </ul>
+          </div>
 
+          <!-- Liens Utiles Col -->
+          <div class="col-md-3 col-lg-2 mb-1">
+            <h5 class="d-none d-md-block">Liens Utiles</h5>
+            <ul class="footer__top--list">
+              <li>
+                <a href="#intro">À Propos</a>
+              </li>
+              <li>
+                <a href="#services">Nos Services</a>
+              </li>
+              <li>
+                <a href="#formations">Nos Formations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Réseaux Sociaux Col -->
+        <div
+          class="d-flex flex-row justify-content-evenly align-items-center footer__mid">
+          <h5 class="d-none d-md-block m-0">Rejoignez-nous sur les réseaux</h5>
+
+          <ul class="list-unstyled d-flex gap-3 m-0">
+            <li>
+              <a
+                href="https://www.facebook.com/p/Bonté-Divine-100064209515347/"
+                target="_blank"
+                rel="noopener">
+                <i class="fa-brands fa-square-facebook"></i>
+                <span class="d-none">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/ibd20.20/"
+                target="_blank"
+                rel="noopener">
+                <i class="fa-brands fa-instagram"></i
+                ><span class="d-none">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://bj.linkedin.com/in/merveille-gainsi-728470305"
+                target="_blank"
+                rel="noopener">
+                <i class="fa-brands fa-linkedin"></i
+                ><span class="d-none">Linked-In</span></a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__bot">
+          <p class="mb-0">
+            &copy; <span id="currentYear"></span> Institut Bonté Divine. Tous
+            droits réservés. Réalisé par
+            <a href="mailto:asmdine1012@gmail.com" class="text-nowrap"
+              >Twilight Monarch</a
+            >.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="./dist/js/bootstrap.bundle.js"></script>
+    <script src="./src/js/script.js"></script>
+  </body>
 </html>

@@ -5,10 +5,16 @@
 }
 
 .underline {
-  width: 75%;
   height: 5px;
   border-radius: 5px;
   margin: 1rem auto 2rem;
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+  @media (min-width: 768px) {
+    max-width: 50%;
+  }
 }
 
 .grad-mod {
