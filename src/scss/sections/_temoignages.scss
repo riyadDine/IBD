@@ -37,4 +37,8 @@
     padding: 0 1.6rem;
     font-weight: bold;
   }
+
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+  }
 }
