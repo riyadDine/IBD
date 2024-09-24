@@ -1,13 +1,10 @@
 @use "custom";
 
 // components
-@use "components/animation";
-@use "components/anchor";
 @use "components/mixins";
 @use "components/typography";
 
 // sections
-
 @use "sections/navbar";
 @use "sections/intro";
 @use "sections/services";
@@ -16,3 +13,4 @@
 @use "sections/contacts";
 @use "sections/footer";
 @use "sections/temoignages";
+@use "sections/annonces";

@@ -1,0 +1,28 @@
+.annonces {
+  &__affiche {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &--car {
+      margin: 0 auto;
+      .carousel-item {
+        img {
+          width: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    @media (min-width: 768px) {
+      svg {
+        width: 160px;
+      }
+      &--car {
+        max-width: 50%;
+      }
+    }
+  }
+}

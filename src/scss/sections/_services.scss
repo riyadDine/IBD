@@ -1,1 +1,79 @@
 @use "../custom" as *;
+@use "../components/mixins" as *;
+
+.services {
+  padding-top: 3rem;
+
+  .photo-album {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+
+    &--box {
+      @include media-breakpoint-up(md) {
+        max-width: 75%;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+    }
+
+    &__track {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      height: auto;
+    }
+
+    &__track--dg {
+      animation: scroll-dg 30s linear infinite;
+      img {
+        box-shadow: 2px 3px 5px rgba($dark, 0.3);
+      }
+    }
+
+    &__track--gd {
+      animation: scroll-gd 30s linear infinite;
+      img {
+        box-shadow: -2px 3px 5px rgba($dark, 0.3);
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      img {
+        height: 150px;
+      }
+    }
+  }
+
+  @keyframes scroll-dg {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes scroll-gd {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    margin: 0.5rem 0.2rem;
+    border-radius: 0.3rem;
+  }
+
+  .gradient-svg {
+    @include gradient;
+  }
+}

@@ -8,9 +8,40 @@
       content="Institut Bonté Divine : Spécialisé en transformation agroalimentaire et savonnerie." />
     <meta
       name="keywords"
-      content="Agroalimentaire, Savonnerie, Savon, Formation, Entrepreneuriat, Produits bio" />
+      content="Institut Bonté Divine, Bonté Divine, Agroalimentaire, Savonnerie, Savon Bénin, Formation, Entrepreneuriat, Produits bio," />
     <meta name="author" content="Riyad Dine" />
     <meta name="robots" content="index, follow" />
+    <meta
+      name="google-site-verification"
+      content="j5uFxM5qZ1sfQYWhs3usKvGlGELjxn0FwXhIPPuQUk4" />
+
+    <!-- Social Media  -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Institut Bonté Divine - Former, Créer, Innover" />
+    <meta
+      property="og:description"
+      content="Découvrez nos formations, nos ateliers de fabrication de savon, et nos ressources entrepreneuriales à l’Institut Bonté Divine. Rejoignez-nous pour améliorer vos compétences et embrasser l'innovation." />
+    <meta
+      property="og:url"
+      content="https://institut-bonte-divine.netlify.app" />
+    <meta
+      property="og:image"
+      content="https://institut-bonte-divine.netlify.app/images/logo.ico" />
+
+    <!-- Twitter Card  -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Institut Bonté Divine - Former, Créer, Innover" />
+    <meta
+      name="twitter:description"
+      content="Découvrez nos formations, nos ateliers de savonnerie, et nos opportunités entrepreneuriales à l’Institut Bonté Divine." />
+    <meta
+      name="twitter:image"
+      content="https://institut-bonte-divine.netlify.app/images/logo.ico" />
+
     <link rel="icon" href="./images/logo.ico" type="image/x-icon" />
     <title>Institut Bonté Divine</title>
     <link rel="stylesheet" href="./dist/css/styles.min.css" />
@@ -19,9 +50,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet" />
   </head>
+
   <body>
     <!-- Navbar -->
-    <!-- pensez à voir lequel capitaliser -->
     <nav
       class="navbar px-1 px-md-2 px-lg-5 navbar-expand-md navbar-dark shadow fixed-top menu">
       <div class="container-fluid">
@@ -64,9 +95,12 @@
               <a class="nav-link" href="#temoignages">Témoignages</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#annonces">Actus</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#faq">Faq</a>
             </li>
-            <li class="nav-item btn btn-dark">
+            <li class="nav-item btn btn-dark btn-sm">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -75,72 +109,67 @@
     </nav>
 
     <!-- Intro section -->
-    <section id="intro" class="intro-section">
-      <div class="container-lg">
-        <!-- starting -->
-        <div class="row align-items-center justify-content-center mb-lg-5">
-          <!-- intro text-two -->
-          <div class="col-md-7">
-            <h1 class="headings-font text-light display-5 pb-sm-2 fw-bold">
+    <section id="intro" class="intro">
+      <div class="background-diaporama">
+        <!-- Images en arrière plan -->
+        <div class="bg-img bg-img-1"></div>
+        <div class="bg-img bg-img-2"></div>
+        <div class="bg-img bg-img-3"></div>
+        <div class="bg-img bg-img-4"></div>
+        <div class="bg-img bg-img-5"></div>
+        <div class="bg-img bg-img-6"></div>
+      </div>
+
+      <!-- Superposition -->
+      <div class="superposition"></div>
+
+      <div class="container-lg position-relative text-light">
+        <div class="mt-5 px-md-4">
+          <div class="headings-font">
+            <h1 class="display-5 fw-bold mb-4">
               Découvrez un univers d'opportunités infinies, où chaque pas est
               une aventure vers l'épanouissement.
             </h1>
+            <p class="lead mb-5">
+              Bienvenue à l'<span class="fw-bold">Institut Bonté Divine</span>,
+              votre centre de référence en transformation agroalimentaire et
+              savonnerie artisanale.
+            </p>
           </div>
-          <!--  images -->
-          <div class="col-md-5 col-lg-4">
-            <img
-              src="images/cor.webp"
-              alt="Institut Bonté Divine"
-              class="intro-img img-fluid rounded-5" />
-          </div>
-        </div>
-        <!-- bienvenue -->
-        <div class="p-2">
-          <p class="lead fw-medium text-center text-light mb-md-4">
-            Bienvenue à l'<span class="text-secondary fw-bold"
-              >Institut Bonté Divine</span
-            >, votre centre d'excellence en transformation agroalimentaire et
-            savonnerie artisanale.
-          </p>
-          <div class="row justify-content-center d-none d-md-flex">
-            <div class="col-auto">
-              <a
-                class="btn btn-lg btn-outline-light fw-medium mb-3"
-                href="#contact"
-                >Contactez-nous</a
-              >
-            </div>
-            <div class="col-auto">
-              <a class="btn btn-lg btn-outline-light" href="#formations"
-                >En savoir plus <i class="fa-solid fa-arrow-right-long"></i
-              ></a>
-            </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-center gap-3">
+            <a
+              class="btn btn-lg btn-outline-light fw-medium text-nowrap"
+              href="#contact"
+              >Contactez-nous</a
+            >
+            <a
+              class="btn btn-lg btn-outline-light fw-medium text-nowrap"
+              href="#formations"
+              >En savoir plus <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
           </div>
         </div>
       </div>
-
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,128L34.3,144C68.6,160,137,192,206,170.7C274.3,149,343,75,411,85.3C480,96,549,192,617,229.3C685.7,267,754,245,823,202.7C891.4,160,960,96,1029,90.7C1097.1,85,1166,139,1234,154.7C1302.9,171,1371,149,1406,138.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-      </svg>
     </section>
 
     <!-- Services section -->
-    <section id="services" class="py-5 temoignages">
+    <section id="services" class="services">
       <div class="container-lg">
-        <h2 class="text-center display-5 fw-bolder mt-4 mb-3 mb-md-4">
+        <h2
+          class="headings-font text-center display-5 fw-bolder pt-5 mb-3 mb-md-4">
           Nos Services
+          <div class="grad-mod underline"></div>
         </h2>
         <div class="row">
-          <div class="col-md-4 mb-2 mb-md-4">
-            <div class="p-4 bg-light rounded">
-              <div class="d-flex align-items-center mb-2">
-                <i class="fa-solid fa-graduation-cap me-2"></i>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-light rounded shadow-sm">
+              <div
+                class="d-flex align-items-center justify-content-center mb-3">
+                <i class="fa-solid fa-graduation-cap fa-2x me-3"></i>
                 <h3 class="mb-0">Éduquer</h3>
               </div>
-              <p class="mb-0">
+              <p class="mb-3">
                 Nous nous engageons à fournir des connaissances et des
                 compétences pour aider chacun à atteindre son potentiel maximum.
               </p>
@@ -151,13 +180,14 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-4 mb-2 mb-md-4">
-            <div class="p-4 bg-light rounded">
-              <div class="d-flex align-items-center mb-2">
-                <i class="fa-solid fa-cogs me-2"></i>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-light rounded shadow-sm">
+              <div
+                class="d-flex align-items-center justify-content-center mb-3">
+                <i class="fa-solid fa-cogs fa-2x me-3"></i>
                 <h3 class="mb-0">S'adapter</h3>
               </div>
-              <p class="mb-0">
+              <p class="mb-3">
                 Nous savons qu'il est essentiel de s'ajuster aux besoins et aux
                 défis changeants pour garantir une croissance continue et
                 durable.
@@ -169,13 +199,14 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-4 mb-2 mb-md-4">
-            <div class="p-4 bg-light rounded">
-              <div class="d-flex align-items-center mb-2">
-                <i class="fa-solid fa-lightbulb me-2"></i>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-light rounded shadow-sm">
+              <div
+                class="d-flex align-items-center justify-content-center mb-3">
+                <i class="fa-solid fa-lightbulb fa-2x me-3"></i>
                 <h3 class="mb-0">Innover</h3>
               </div>
-              <p class="mb-0">
+              <p class="mb-3">
                 Nous cherchons constamment à innover et à introduire de
                 nouvelles idées pour améliorer nos services et répondre aux
                 attentes de nos clients.
@@ -193,8 +224,8 @@
           atteindre vos objectifs personnels et professionnels.
         </p>
         <div class="row">
-          <div class="col-md-4 mb-2">
-            <div class="card text-bg-light">
+          <div class="col-md-4 mb-4">
+            <div class="card text-bg-light border-light shadow-sm">
               <div class="card-body">
                 <h3 class="text-md-center">Savonnerie</h3>
                 <hr />
@@ -213,8 +244,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-2">
-            <div class="card text-bg-light">
+          <div class="col-md-4 mb-4">
+            <div class="card text-bg-light border-light shadow-sm">
               <div class="card-body">
                 <h3 class="text-md-center">Boissons</h3>
                 <hr />
@@ -233,8 +264,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-2">
-            <div class="card text-bg-light">
+          <div class="col-md-4 mb-4">
+            <div class="card text-bg-light border-light shadow-sm">
               <div class="card-body">
                 <h3 class="text-md-center">Formations</h3>
                 <hr />
@@ -254,372 +285,625 @@
             </div>
           </div>
         </div>
-        <div class="text-center mt-5">
-          <a href="#contact" class="btn btn-outline-primary btn-lg">
+
+        <!-- Photo Album -->
+        <div class="photo-album">
+          <div class="text-center mt-4 px-3">
+            <h3>Explorez Notre Savoir-Faire en Action</h3>
+            <p>
+              Explorez une sélection d'images illustrant notre travail, de la
+              formation à la production de savons. Laissez-vous inspirer par
+              notre expertise et nos réalisations.
+            </p>
+          </div>
+
+          <div class="photo-album--box">
+            <div class="photo-album__track photo-album__track--dg">
+              <img src="./images/grid/grid 1.jpeg" alt="Image 1" />
+              <img src="./images/grid/grid 2.jpeg" alt="Image 2" />
+              <img src="./images/grid/grid 3.jpeg" alt="Image 3" />
+              <img src="./images/grid/grid 4.jpeg" alt="Image 4" />
+              <img src="./images/grid/grid 5.jpeg" alt="Image 5" />
+              <!-- dupliquer -->
+              <img src="./images/grid/grid 1.jpeg" alt="Image 1" />
+              <img src="./images/grid/grid 2.jpeg" alt="Image 2" />
+              <img src="./images/grid/grid 3.jpeg" alt="Image 3" />
+              <img src="./images/grid/grid 4.jpeg" alt="Image 4" />
+              <img src="./images/grid/grid 5.jpeg" alt="Image 5" />
+            </div>
+            <div class="photo-album__track photo-album__track--gd">
+              <img src="./images/grid/grid 6.jpeg" alt="Image 6" />
+              <img src="./images/grid/grid 7.jpeg" alt="Image 7" />
+              <img src="./images/grid/grid 8.jpeg" alt="Image 8" />
+              <img src="./images/grid/grid 9.jpeg" alt="Image 9" />
+              <img src="./images/grid/grid 10.jpeg" alt="Image 10" />
+              <!-- dupliquer -->
+              <img src="./images/grid/grid 6.jpeg" alt="Image 6" />
+              <img src="./images/grid/grid 7.jpeg" alt="Image 7" />
+              <img src="./images/grid/grid 8.jpeg" alt="Image 8" />
+              <img src="./images/grid/grid 9.jpeg" alt="Image 9" />
+              <img src="./images/grid/grid 10.jpeg" alt="Image 10" />
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center my-5">
+          <a href="#contact" class="btn btn-outline-dark btn-lg px-3 py-2">
             Contactez-nous pour en savoir plus sur tous nos services
           </a>
         </div>
       </div>
+      <svg
+        class="gradient-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L34.3,176C68.6,160,137,128,206,149.3C274.3,171,343,245,411,234.7C480,224,549,128,617,90.7C685.7,53,754,75,823,117.3C891.4,160,960,224,1029,229.3C1097.1,235,1166,181,1234,165.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path>
+      </svg>
     </section>
 
     <!-- Formations section -->
-    <section id="formations" class="formations-section py-5 bg-light">
+    <section id="formations" class="formations">
       <div class="container-lg">
-        <div>
-          <h2 class="text-center display-6 fw-bolder mt-4 mb-3 mb-md-4">
+        <div class="text-center px-2">
+          <h2 class="headings-font display-5 fw-bolder mb-3 mb-md-4">
             Nos Formations
+            <div class="underline bg-white"></div>
           </h2>
-          <p class="text-center mb-4">
+
+          <p class="mb-4">
             Découvrez nos formations complètes conçues pour développer vos
             compétences et vous préparer à exceller dans divers domaines :
           </p>
         </div>
 
-        <div class="card mb-3">
-          <div class="card-header">
-            <h3>Formation en Savonnerie</h3>
-          </div>
-          <div class="card-body">
-            <p>
-              Maîtrisez la fabrication de savons artisanaux de haute qualité
-              avec des ingrédients naturels et des techniques de saponification
-              à froid. Cette formation vous guidera à travers chaque étape, de
-              la conception à la réalisation de produits de soin personnalisés
-              pour différents besoins.
-            </p>
-            <button
-              class="btn btn-primary formation-collapse"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#savonnerieDetails"
-              aria-expanded="false"
-              aria-controls="savonnerieDetails">
-              En savoir plus
-            </button>
-            <div class="collapse mt-3" id="savonnerieDetails">
+        <div class="px-3">
+          <div class="card mb-3">
+            <div class="card-header">
+              <h3>Formation en Savonnerie</h3>
+            </div>
+            <div class="card-body">
               <p>
-                Cette formation est parfaite pour ceux qui souhaitent créer des
-                savons uniques et maîtriser l’art de la savonnerie.
+                Maîtrisez la fabrication de savons artisanaux de haute qualité
+                avec des ingrédients naturels et des techniques de
+                saponification à froid. Cette formation vous guidera à travers
+                chaque étape, de la conception à la réalisation de produits de
+                soin personnalisés pour différents besoins.
               </p>
-              <h4>Ce que vous apprendrez :</h4>
-              <ul>
-                <li>Techniques de fabrication de savons artisanaux.</li>
-                <li>Utilisation d’ingrédients naturels et bio.</li>
-                <li>Création de formules personnalisées et innovations.</li>
-                <li>Gestion de la production et des ventes.</li>
-              </ul>
+              <button
+                class="btn btn-primary mod-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#savonnerieDetails"
+                aria-expanded="false"
+                aria-controls="savonnerieDetails">
+                En savoir plus
+              </button>
+              <div class="collapse mt-3" id="savonnerieDetails">
+                <p>
+                  Cette formation est parfaite pour ceux qui souhaitent créer
+                  des savons uniques et maîtriser l’art de la savonnerie.
+                </p>
+                <h4>Ce que vous apprendrez :</h4>
+                <ul>
+                  <li>Techniques de fabrication de savons artisanaux.</li>
+                  <li>Utilisation d’ingrédients naturels et bio.</li>
+                  <li>Création de formules personnalisées et innovations.</li>
+                  <li>Gestion de la production et des ventes.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              <h3>Formation en Agriculture</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Explorez les techniques modernes et traditionnelles de culture
+                pour une compréhension approfondie de l'agriculture. Apprenez à
+                gérer les ressources, optimiser les rendements et appliquer des
+                pratiques durables pour réussir dans le domaine agricole.
+              </p>
+              <button
+                class="btn btn-primary mod-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#agricultureDetails"
+                aria-expanded="false"
+                aria-controls="agricultureDetails">
+                En savoir plus
+              </button>
+              <div class="collapse mt-3" id="agricultureDetails">
+                <p>
+                  Cette formation est conçue pour vous enseigner les meilleures
+                  pratiques agricoles, améliorer la productivité et adopter des
+                  méthodes durables.
+                </p>
+                <h4>Ce que vous apprendrez :</h4>
+                <ul>
+                  <li>
+                    Techniques avancées de culture et de gestion des cultures.
+                  </li>
+                  <li>Utilisation des technologies agricoles modernes.</li>
+                  <li>
+                    Gestion des ressources naturelles et optimisation des
+                    rendements.
+                  </li>
+                  <li>
+                    Pratiques durables pour minimiser l'impact environnemental.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              <h3>Formation en Transformation Agroalimentaire</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Découvrez le processus de transformation des matières premières
+                agricoles en produits alimentaires finis. Apprenez à manipuler
+                les ingrédients, appliquer les techniques de transformation, et
+                garantir la qualité des produits pour répondre aux exigences du
+                marché.
+              </p>
+              <button
+                class="btn btn-primary mod-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#agroalimentaireDetails"
+                aria-expanded="false"
+                aria-controls="agroalimentaireDetails">
+                En savoir plus
+              </button>
+              <div class="collapse mt-3" id="agroalimentaireDetails">
+                <p>
+                  Cette formation vous fournira les compétences nécessaires pour
+                  transformer les matières premières en produits alimentaires de
+                  haute qualité.
+                </p>
+                <h4>Ce que vous apprendrez :</h4>
+                <ul>
+                  <li>Techniques de transformation des matières premières.</li>
+                  <li>Gestion de la qualité des produits alimentaires.</li>
+                  <li>Innovations dans le secteur agroalimentaire.</li>
+                  <li>Normes de sécurité alimentaire et réglementation.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              <h3>Formation en Rédaction de Projet</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                Perfectionnez l'art de rédiger des propositions claires et
+                convaincantes. Apprenez à structurer vos documents, analyser les
+                besoins, et élaborer des budgets pour maximiser vos chances de
+                succès dans l'obtention de financements et soutiens.
+              </p>
+              <button
+                class="btn btn-primary mod-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#redactionDetails"
+                aria-expanded="false"
+                aria-controls="redactionDetails">
+                En savoir plus
+              </button>
+              <div class="collapse mt-3" id="redactionDetails">
+                <p>
+                  Maîtrisez les techniques pour rédiger des propositions
+                  efficaces et séduire les investisseurs et partenaires.
+                </p>
+                <h4>Ce que vous apprendrez :</h4>
+                <ul>
+                  <li>
+                    Techniques de rédaction de propositions convaincantes.
+                  </li>
+                  <li>Structuration des documents et présentation.</li>
+                  <li>Analyse des besoins et élaboration de budgets.</li>
+                  <li>
+                    Stratégies pour captiver les investisseurs et partenaires.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="card mb-3">
-          <div class="card-header">
-            <h3>Formation en Agriculture</h3>
-          </div>
-          <div class="card-body">
-            <p>
-              Explorez les techniques modernes et traditionnelles de culture
-              pour une compréhension approfondie de l'agriculture. Apprenez à
-              gérer les ressources, optimiser les rendements et appliquer des
-              pratiques durables pour réussir dans le domaine agricole.
-            </p>
-            <button
-              class="btn btn-primary formation-collapse"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#agricultureDetails"
-              aria-expanded="false"
-              aria-controls="agricultureDetails">
-              En savoir plus
-            </button>
-            <div class="collapse mt-3" id="agricultureDetails">
-              <p>
-                Cette formation est conçue pour vous enseigner les meilleures
-                pratiques agricoles, améliorer la productivité et adopter des
-                méthodes durables.
-              </p>
-              <h4>Ce que vous apprendrez :</h4>
-              <ul>
-                <li>
-                  Techniques avancées de culture et de gestion des cultures.
-                </li>
-                <li>Utilisation des technologies agricoles modernes.</li>
-                <li>
-                  Gestion des ressources naturelles et optimisation des
-                  rendements.
-                </li>
-                <li>
-                  Pratiques durables pour minimiser l'impact environnemental.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3">
-          <div class="card-header">
-            <h3>Formation en Transformation Agroalimentaire</h3>
-          </div>
-          <div class="card-body">
-            <p>
-              Découvrez le processus de transformation des matières premières
-              agricoles en produits alimentaires finis. Apprenez à manipuler les
-              ingrédients, appliquer les techniques de transformation, et
-              garantir la qualité des produits pour répondre aux exigences du
-              marché.
-            </p>
-            <button
-              class="btn btn-primary formation-collapse"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#agroalimentaireDetails"
-              aria-expanded="false"
-              aria-controls="agroalimentaireDetails">
-              En savoir plus
-            </button>
-            <div class="collapse mt-3" id="agroalimentaireDetails">
-              <p>
-                Cette formation vous fournira les compétences nécessaires pour
-                transformer les matières premières en produits alimentaires de
-                haute qualité.
-              </p>
-              <h4>Ce que vous apprendrez :</h4>
-              <ul>
-                <li>Techniques de transformation des matières premières.</li>
-                <li>Gestion de la qualité des produits alimentaires.</li>
-                <li>Innovations dans le secteur agroalimentaire.</li>
-                <li>Normes de sécurité alimentaire et réglementation.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3">
-          <div class="card-header">
-            <h3>Formation en Rédaction de Projet</h3>
-          </div>
-          <div class="card-body">
-            <p>
-              Perfectionnez l'art de rédiger des propositions claires et
-              convaincantes. Apprenez à structurer vos documents, analyser les
-              besoins, et élaborer des budgets pour maximiser vos chances de
-              succès dans l'obtention de financements et soutiens.
-            </p>
-            <button
-              class="btn btn-primary formation-collapse"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#redactionDetails"
-              aria-expanded="false"
-              aria-controls="redactionDetails">
-              En savoir plus
-            </button>
-            <div class="collapse mt-3" id="redactionDetails">
-              <p>
-                Maîtrisez les techniques pour rédiger des propositions efficaces
-                et séduire les investisseurs et partenaires.
-              </p>
-              <h4>Ce que vous apprendrez :</h4>
-              <ul>
-                <li>Techniques de rédaction de propositions convaincantes.</li>
-                <li>Structuration des documents et présentation.</li>
-                <li>Analyse des besoins et élaboration de budgets.</li>
-                <li>
-                  Stratégies pour captiver les investisseurs et partenaires.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center mt-5">
-          <a href="#contact" class="btn btn-primary btn-lg">
+        <div class="text-center mt-5 px-2">
+          <a href="#contact" class="btn btn-outline-light btn-lg fw-bold">
             Contactez-nous pour en savoir plus sur nos formations
           </a>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,128L34.3,144C68.6,160,137,192,206,170.7C274.3,149,343,75,411,85.3C480,96,549,192,617,229.3C685.7,267,754,245,823,202.7C891.4,160,960,96,1029,90.7C1097.1,85,1166,139,1234,154.7C1302.9,171,1371,149,1406,138.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+      </svg>
     </section>
 
     <!-- Temoignage section -->
-
-    <section id="temoignages" class="avis py-5">
-      <div class="container text-light">
-        <div class="row">
-          <h2 class="mb-4 mt-5 text-center">Évaluations</h2>
-          <hr class="w-50 mx-auto" />
+    <section id="temoignages" class="temoignages py-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2 class="headings-font display-5 fw-bolder pt-5 mb-3 mb-md-4">
+            Témoignages
+            <div class="grad-mod underline"></div>
+          </h2>
           <p class="mb-4">
             Découvrez ce que nos clients disent de nos produits et formations.
             Voici quelques témoignages qui reflètent leur satisfaction et leurs
-            expériences positives avec nous.
+            expériences avec nous.
           </p>
         </div>
 
         <div class="row align-items-center">
-          <div id="carouselExampleCaptions" class="carousel slide">
+          <div
+            id="temoignages-car"
+            class="carousel slide"
+            data-bs-ride="carousel">
             <div class="carousel-inner">
               <!-- témoignages 1 -->
               <div class="carousel-item active">
-                <!--avis-->
-                <div class="avis__carte">
+                <div class="temoignages__carte">
                   <p class="lh-lg">
                     <i class="fas fa-quote-left"></i>
-                    Nous aimons beaucoup le savon au curcuma et au miel. Ça rafraîchit la peau.
+                    Nous aimons beaucoup le savon au curcuma et au miel. Ça
+                    rafraîchit la peau.
                     <i class="fas fa-quote-right"></i>
-                    <div class="notes">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
                   </p>
-                  <!--nom-->
-                  <h3>GAINSI Grâce Julia & GAINSI Wilfried</h3>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">
+                    GAINSI Grâce Julia & GAINSI Wilfried
+                  </h3>
                 </div>
               </div>
-                
-                
+
               <!-- témoignages 2 -->
               <div class="carousel-item">
-                <!--avis-->
-                <div class="avis__carte">
+                <div class="temoignages__carte">
                   <p class="lh-lg">
                     <i class="fas fa-quote-left"></i>
-                    C'était une formation en ligne en transformation agroalimentaire, mais très explicite et enrichissante. Je n'ai pas eu de difficulté à réaliser l'un des produits de la formation (le yaourt au coco). Mon entourage l'a trouvé succulent. Je recommande!
+                    C'était une formation en ligne en transformation
+                    agroalimentaire, mais très explicite et enrichissante. Je
+                    n'ai pas eu de difficulté à réaliser l'un des produits de la
+                    formation (le yaourt au coco). Mon entourage l'a trouvé
+                    succulent. Je recommande!
                     <i class="fas fa-quote-right"></i>
-                    <div class="notes">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
                   </p>
-                  <!--nom-->
-                  <h3>Mlle Ursule</h3>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Mlle Ursule</h3>
                 </div>
               </div>
-                
+
               <!-- témoignages 3 -->
               <div class="carousel-item">
-                <!--avis-->
-                <div class="avis__carte">
+                <div class="temoignages__carte">
                   <p class="lh-lg">
                     <i class="fas fa-quote-left"></i>
-                    Mes enfants et moi n'utilisons plus que le savon au miel. C'est un vrai bonheur de l'utiliser.
+                    Mes enfants et moi n'utilisons plus que le savon au miel.
+                    C'est un vrai bonheur de l'utiliser.
                     <i class="fas fa-quote-right"></i>
-                    <div class="notes">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
                   </p>
-                <!--nom-->
-                
-                  <h3>Mlle KOUKOU</h3>
-                  
-                </div>  
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Mlle KOUKOU</h3>
+                </div>
               </div>
-                
+
               <!-- témoignages 4 -->
               <div class="carousel-item">
-                <!--avis-->
-                <div class="avis__carte">
+                <div class="temoignages__carte">
                   <p class="lh-lg">
                     <i class="fas fa-quote-left"></i>
-                    Producteur d'ananas, j'aimerais étendre mes activités à la production de jus. J'ai donc contacté l'Institut Bonté Divine pour me former, et ce fut une réussite inégalée. Je recommande.
+                    Producteur d'ananas, j'aimerais étendre mes activités à la
+                    production de jus. J'ai donc contacté l'Institut Bonté
+                    Divine pour me former, et ce fut une réussite inégalée. Je
+                    recommande.
                     <i class="fas fa-quote-right"></i>
-                    <div class="notes">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
                   </p>
-                <!--nom-->
-                  <h3>Bienvenu OGOUDOUNSI</h3>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Bienvenu OGOUDOUNSI</h3>
                 </div>
               </div>
 
               <!-- témoignages 5 -->
               <div class="carousel-item">
-                <!--avis-->
-                <div class="avis__carte">
+                <div class="temoignages__carte">
                   <p class="lh-lg">
                     <i class="fas fa-quote-left"></i>
-                    Je suis satisfaite de la formation en transformation agroalimentaire que j'ai suivie en ligne. C'était différent des formations précédentes que j'ai suivies.
+                    Je suis satisfaite de la formation en transformation
+                    agroalimentaire que j'ai suivie en ligne. C'était différent
+                    des formations précédentes que j'ai suivies.
                     <i class="fas fa-quote-right"></i>
-                    <div class="notes">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
                   </p>
-                  <!--nom-->
-                  <h3>Bona TOURE</h3>
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Bona TOURE</h3>
                 </div>
               </div>
-                
+
               <!-- témoignages 6 -->
               <div class="carousel-item">
-                <!--avis-->
-                <div class="avis__carte">
+                <div class="temoignages__carte">
                   <p class="lh-lg">
                     <i class="fas fa-quote-left"></i>
-                    J'ai aimé le savon au curcuma, même si j'utilise un peu de tout. Celui-ci fait vraiment la différence.
+                    J'ai aimé le savon au curcuma, même si j'utilise un peu de
+                    tout. Celui-ci fait vraiment la différence.
                     <i class="fas fa-quote-right"></i>
-                    <div class="notes">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
                   </p>
-                <!--nom-->
-                  <h3>Mlle Prisca</h3>
-                  
+                  <div class="notes">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3 class="temoignages__nom">Mlle Prisca</h3>
+                </div>
               </div>
             </div>
-              
-            </div>
 
-            <div class="text-center pt-2">
+            <!-- Carousel Controls -->
+            <div class="text-center pt-4">
               <button
-              class="btn btn-outline-light"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev">
-              <i class="fas fa-long-arrow-alt-left"></i>
-            </button>
-            <button
-              class="btn btn-outline-light"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next">
-              <i class="fas fa-long-arrow-alt-right"></i>
-              
-            </button></div>
-            
+                class="btn btn-outline-dark"
+                type="button"
+                data-bs-target="#temoignages-car"
+                data-bs-slide="prev">
+                <i class="fas fa-long-arrow-alt-left"></i>
+                <span class="visually-hidden">Précédent</span>
+              </button>
+              <button
+                class="btn btn-outline-dark"
+                type="button"
+                data-bs-target="#temoignages-car"
+                data-bs-slide="next">
+                <i class="fas fa-long-arrow-alt-right"></i>
+                <span class="visually-hidden">Suivant</span>
+              </button>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
 
-    <!-- je vais mettre les photos de leur realisation ici. comme ca on aura dun coté les propos des témooins et de lautre on aura une bande de photo montrant les produits, les formations également -->
+    <!-- Annonces Section -->
+    <section id="annonces" class="bg-light annonces py-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2 class="headings-font display-5 fw-bolder pt-5 mb-3 mb-md-4">
+            Annonces
+            <div class="grad-mod underline"></div>
+          </h2>
+          <p class="lead mb-4">
+            Découvrez les dernières nouvelles, collaborations, et mises à jour
+            d'Institut Bonté Divine. Restez informé de nos activités,
+            formations, et autres événements à venir.
+          </p>
+        </div>
+
+        <article class="annonces__affiche">
+          <!-- SVG l -->
+          <div class="d-none d-md-flex flex-column pt-4 justify-content-around">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="SvgjsSvg694m"
+              x="0"
+              y="0"
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="200"
+              height="200"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.dev/svgjs">
+              <path
+                d="M0 .001h235.016v50.361H0zm0 92.327h235.016v50.36H0zm0 92.328v50.36h235.016v-50.36zM461.638.001h50.361v235.016h-50.361zm-92.328 0h50.36v235.016h-50.36zm-92.327 0v235.015h50.36V.001zm0 461.638h235.016V512H276.983zm0-92.328h235.016v50.36H276.983zm163.673-92.327H276.983v50.36H512v-50.36zM0 276.984h50.361V512H0zm92.328 0h50.36V512h-50.36zm92.327 0v235.015h50.361V276.984z"
+                fill='url("#SvgjsRadialGradient694")'></path>
+              <defs>
+                <radialGradient cx="50%" cy="50%" id="SvgjsRadialGradient694">
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(12, 47, 23)"
+                    offset="0.0552081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(0, 0, 0)"
+                    offset="0.2552081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(9, 71, 28)"
+                    offset="0.5052081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(0, 0, 0)"
+                    offset="0.9902081298828125"></stop>
+                </radialGradient>
+              </defs>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="SvgjsSvg697"
+              width="200"
+              height="200"
+              viewBox="0 0 512 512"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.dev/svgjs">
+              <path
+                d="m234.789 86.298-63.642-64.642L0 192.794v126.401l.447.445zM107.47 255.997l63.631-63.631 148.47 148.47-63.63 63.63zm212.17 255.556L86.298 277.211l-64.642 63.642L192.796 512h126.397zM192.358.445l233.348 234.348 64.642-63.639L319.208 0H192.803zm-.037 170.72 63.631-63.631 148.472 148.471-63.631 63.631zm148.53 319.177L512 319.193V191.924L277.211 425.702zM512 512V361.615L361.615 512zM0 361.617V512h150.374zm511.559-211.674.441-.441V0H361.628zM0 0v150.374L150.381 0z"
+                fill='url("#SvgjsRadialGradient697")'></path>
+              <defs>
+                <radialGradient cx="50%" cy="50%" id="SvgjsRadialGradient697">
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(12, 47, 23)"
+                    offset="0.0552081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(0, 0, 0)"
+                    offset="0.2552081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(9, 71, 28)"
+                    offset="0.5052081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(0, 0, 0)"
+                    offset="0.9902081298828125"></stop>
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <!-- Photos -->
+          <div
+            id="affiches-car"
+            class="carousel slide annonces__affiche--car"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="15000">
+                <img src="./images/actus/actu-1.jpeg" alt="Affiche 1" />
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="./images/actus/actu-2.jpeg" alt="Affiche 2" />
+              </div>
+              <div class="carousel-item" data-bs-interval="15000">
+                <img src="./images/actus/actu-3.jpeg" alt="Affiche 3" />
+              </div>
+            </div>
+          </div>
+
+          <!-- SVG r -->
+          <div class="d-none d-md-flex flex-column pt-4 justify-content-around">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="SvgjsSvg6942"
+              x="0"
+              y="0"
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="200"
+              height="200"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.dev/svgjs">
+              <path
+                d="M0 .001h235.016v50.361H0zm0 92.327h235.016v50.36H0zm0 92.328v50.36h235.016v-50.36zM461.638.001h50.361v235.016h-50.361zm-92.328 0h50.36v235.016h-50.36zm-92.327 0v235.015h50.36V.001zm0 461.638h235.016V512H276.983zm0-92.328h235.016v50.36H276.983zm163.673-92.327H276.983v50.36H512v-50.36zM0 276.984h50.361V512H0zm92.328 0h50.36V512h-50.36zm92.327 0v235.015h50.361V276.984z"
+                fill='url("#SvgjsRadialGradient6943")'></path>
+              <defs>
+                <radialGradient cx="50%" cy="50%" id="SvgjsRadialGradient6943">
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(12, 47, 23)"
+                    offset="0.0552081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(0, 0, 0)"
+                    offset="0.2552081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(9, 71, 28)"
+                    offset="0.5052081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(0, 0, 0)"
+                    offset="0.9902081298828125"></stop>
+                </radialGradient>
+              </defs>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="SvgjsSvg6975"
+              width="200"
+              height="200"
+              viewBox="0 0 512 512"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.dev/svgjs">
+              <path
+                d="m234.789 86.298-63.642-64.642L0 192.794v126.401l.447.445zM107.47 255.997l63.631-63.631 148.47 148.47-63.63 63.63zm212.17 255.556L86.298 277.211l-64.642 63.642L192.796 512h126.397zM192.358.445l233.348 234.348 64.642-63.639L319.208 0H192.803zm-.037 170.72 63.631-63.631 148.472 148.471-63.631 63.631zm148.53 319.177L512 319.193V191.924L277.211 425.702zM512 512V361.615L361.615 512zM0 361.617V512h150.374zm511.559-211.674.441-.441V0H361.628zM0 0v150.374L150.381 0z"
+                fill='url("#SvgjsRadialGradient6976")'></path>
+              <defs>
+                <radialGradient cx="50%" cy="50%" id="SvgjsRadialGradient6976">
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(12, 47, 23)"
+                    offset="0.0552081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(0, 0, 0)"
+                    offset="0.2552081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(9, 71, 28)"
+                    offset="0.5052081298828125"></stop>
+                  <stop
+                    stop-opacity=" 1"
+                    stop-color="rgba(0, 0, 0)"
+                    offset="0.9902081298828125"></stop>
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <!-- FAQ section -->
-    <section id="faq" class="py-5">
+    <section id="faq" class="bg-light faq">
       <div class="container-lg">
         <div class="text-center mb-5">
-          <h2 class="display-6 mt-5 fw-bolder">FAQ</h2>
-          <p class="lead">
+          <h2 class="headings-font display-5 fw-bolder pt-5 mb-3 mb-md-4">
+            FAQ
+            <div class="grad-mod underline"></div>
+          </h2>
+          <p class="mb-4 lead">
             Bienvenue dans notre Foire Aux Questions ! Nous avons rassemblé ici
             les réponses aux questions les plus fréquemment posées concernant
             nos formations et services. Que vous soyez un futur participant ou
@@ -627,6 +911,7 @@
             cette section répondra à vos interrogations.
           </p>
         </div>
+
         <div class="accordion" id="faqAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -672,8 +957,8 @@
               data-bs-parent="#faqAccordion">
               <div class="accordion-body">
                 La durée de nos formations varie selon le programme. En général,
-                nos formations s'étendent sur [X jours/semaine/mois]. Pour des
-                informations spécifiques, veuillez nous contacter directement.
+                nos formations s'étendent sur 6 mois. Pour des informations
+                spécifiques, veuillez nous contacter directement.
               </div>
             </div>
           </div>
@@ -696,7 +981,10 @@
               aria-labelledby="headingThree"
               data-bs-parent="#faqAccordion">
               <div class="accordion-body">
-                Oui, nos formations sont disponibles à la fois en ligne et en présentiel. Cela permet à nos participants de choisir l'option qui leur convient le mieux, selon leurs besoins et leurs disponibilités.
+                Oui, nos formations sont disponibles à la fois en ligne et en
+                présentiel. Cela permet à nos participants de choisir l'option
+                qui leur convient le mieux, selon leurs besoins et leurs
+                disponibilités.
               </div>
             </div>
           </div>
@@ -827,28 +1115,41 @@
             </div>
           </div>
         </div>
-        <p class="mt-4 text-muted">
+        <p class="mt-5 text-center text-muted">
           Vous avez d'autres questions ? Nous serions ravis de vous aider !
-          <a href="#contact" class="text-primary"
+          <a href="#contact" class="text-primary fw-medium"
             >Contactez-nous dès maintenant</a
           >
           pour obtenir des réponses personnalisées et discuter de vos besoins
           spécifiques.
         </p>
       </div>
+      <svg
+        class="gradient-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320">
+        <path
+          fill="#f8f9fa"
+          fill-opacity="1"
+          d="M0,192L34.3,176C68.6,160,137,128,206,149.3C274.3,171,343,245,411,234.7C480,224,549,128,617,90.7C685.7,53,754,75,823,117.3C891.4,160,960,224,1029,229.3C1097.1,235,1166,181,1234,165.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path>
+      </svg>
     </section>
 
     <!-- Contact section -->
-    <section id="contact" class="py-5 bg-light">
+    <section id="contact" class="contact">
       <div class="container-lg">
-        <div class="text-center mb-4">
-          <h2 class="display-6 fw-bolder mt-5">Contactez-nous</h2>
-          <p>
+        <div class="text-center text-light mb-5">
+          <h2 class="headings-font display-5 fw-bolder mb-3 mb-md-4">
+            Contactez-nous
+            <div class="bg-white underline"></div>
+          </h2>
+          <p class="mb-4 lead">
             Si vous avez des questions ou souhaitez en savoir plus sur nos
             services et formations, nous sommes là pour vous aider.
           </p>
         </div>
-        <form action="https://formspree.io/f/mzzpggzz" method="post">
+
+        <form action="https://formspree.io/f/movabaok" method="post">
           <div class="row">
             <div class="mb-3 col-md-6">
               <label for="name" class="form-label">Nom Complet</label>
@@ -873,17 +1174,19 @@
           </div>
           <div class="row">
             <div class="mb-3 col-md-6">
-              <label for="whatsapp" class="form-label">Numéro WhatsApp</label>
+              <label for="whatsapp" class="form-label"
+                >Numéro de téléphone</label
+              >
               <input
                 type="text"
                 class="form-control"
                 id="whatsapp"
                 name="Numéro de téléphone - whatsapp"
-                placeholder="Votre numéro WhatsApp" />
+                placeholder="Votre numéro téléphone" />
             </div>
             <div class="mb-3 col-md-6">
               <label for="acceptWhatsapp" class="form-label"
-                >Acceptez-vous d'être contacté par WhatsApp?</label
+                >Acceptez-vous d'être contacté sur WhatsApp?</label
               >
               <select
                 class="form-select"
@@ -896,8 +1199,8 @@
           </div>
 
           <div class="mb-3">
-            <label for="subject" class="form-label">Objet du message</label>
-            <select class="form-select" id="subject" name="Objet" required>
+            <label for="objet" class="form-label">Objet du message</label>
+            <select class="form-select" id="objet" name="Objet" required>
               <option value="Savonnerie">Savonnerie</option>
               <option value="Boissons">Boissons</option>
               <option value="Formation en Savonnerie">
@@ -915,14 +1218,15 @@
               <option value="Autre">Autre</option>
             </select>
           </div>
-          <div class="mb-3" id="otherSubject" style="display: none">
-            <label for="otherSubjectText" class="form-label"
+
+          <div class="mb-3 autreObj">
+            <label for="autreObjText" class="form-label"
               >Veuillez préciser l'objet</label
             >
             <input
               type="text"
               class="form-control"
-              id="otherSubjectText"
+              id="autreObjText"
               name="Objet"
               placeholder="Autre objet" />
           </div>
@@ -936,12 +1240,108 @@
               placeholder="Votre message"
               required></textarea>
           </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-primary">Envoyer</button>
+          <div class="submit text-center">
+            <button type="submit" class="btn btn-primary fw-bold">
+              Envoyer
+            </button>
           </div>
         </form>
       </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container-fluid p-0">
+        <div class="row footer__top">
+          <!-- Horaires Col -->
+          <div class="col-md-4 ms-md-3">
+            <h5 class="d-none d-md-block">Horaires</h5>
+            <ul class="footer__top--list">
+              <li>Lundi - Vendredi: 9h00 - 18h00</li>
+              <li>Samedi: 9h00 - 16h00</li>
+              <li>Dimanche: Fermé</li>
+            </ul>
+          </div>
+          <!-- Contacts Col -->
+          <div class="col-md-4">
+            <h5 class="d-none d-md-block">Contact</h5>
+            <ul class="footer__top--list">
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:merveillegainsi@gmail.com">contact@ibd.com</a>
+              </li>
+              <li><i class="fa-solid fa-phone"></i>+229 69 05 73 94</li>
+              <li><i class="fa-solid fa-phone"></i>+229 99 47 81 02</li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>OKE-ATTA, Pobè, Benin
+              </li>
+            </ul>
+          </div>
+
+          <!-- Liens Utiles Col -->
+          <div class="col-md-3 col-lg-2 mb-1">
+            <h5 class="d-none d-md-block">Liens Utiles</h5>
+            <ul class="footer__top--list">
+              <li>
+                <a href="#intro">À Propos</a>
+              </li>
+              <li>
+                <a href="#services">Nos Services</a>
+              </li>
+              <li>
+                <a href="#formations">Nos Formations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Réseaux Sociaux Col -->
+        <div
+          class="d-flex flex-row justify-content-evenly align-items-center footer__mid">
+          <h5 class="d-none d-md-block m-0">Rejoignez-nous sur les réseaux</h5>
+
+          <ul class="list-unstyled d-flex gap-3 m-0">
+            <li>
+              <a
+                href="https://www.facebook.com/p/Bonté-Divine-100064209515347/"
+                target="_blank"
+                rel="noopener">
+                <i class="fa-brands fa-square-facebook"></i>
+                <span class="d-none">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/ibd20.20/"
+                target="_blank"
+                rel="noopener">
+                <i class="fa-brands fa-instagram"></i
+                ><span class="d-none">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://bj.linkedin.com/in/merveille-gainsi-728470305"
+                target="_blank"
+                rel="noopener">
+                <i class="fa-brands fa-linkedin"></i
+                ><span class="d-none">Linked-In</span></a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__bot">
+          <p class="mb-0 p-2">
+            &copy; <span id="currentYear"></span> Institut Bonté Divine. Tous
+            droits réservés. Réalisé par
+            <a href="mailto:asmdine1012@gmail.com" class="text-nowrap"
+              >Riyad-Dine A.</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap JavaScript -->
     <script src="./dist/js/bootstrap.bundle.js"></script>

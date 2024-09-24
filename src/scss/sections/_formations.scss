@@ -1,0 +1,44 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.formations {
+  @include gradient;
+  color: $white;
+  padding-top: 4.5rem;
+
+  .card {
+    box-shadow: 0 4px 8px rgba($black, 0.1);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 5px 6px 12px 5px rgba($secondary, 0.5);
+    }
+
+    .card-header {
+      background-color: rgba($black, 0.95);
+      color: $white;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .card-body {
+      font-size: 1.1rem;
+    }
+
+    .btn-primary {
+      @include gradient;
+      border: none;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: linear-gradient(
+          to right,
+          rgba($primary, 1),
+          rgba($secondary, 1)
+        );
+      }
+    }
+  }
+}

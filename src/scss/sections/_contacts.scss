@@ -1,0 +1,44 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.contact {
+  @include gradient;
+  padding-top: 4.5rem;
+  padding-bottom: 5rem;
+
+  form {
+    background: $white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 6px 8px 8px rgba($dark, 0.5);
+    max-width: 850px;
+    margin: 0 auto;
+
+    label {
+      font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+      border: 1px solid $gray-400;
+      border-radius: 0.25rem;
+      padding: 0.75rem;
+    }
+
+    .autreObj {
+      display: none;
+    }
+
+    .submit {
+      button {
+        background-color: $primary;
+        padding: 0.75rem 1.5rem;
+
+        &:hover {
+          background-color: darken($primary, 10%);
+        }
+      }
+    }
+  }
+}

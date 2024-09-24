@@ -1,19 +1,29 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll(".formation-collapse");
+document.addEventListener("DOMContentLoaded", () => {
+  // elements
+  const collapseButtons = document.querySelectorAll(".mod-collapse");
+  const objetSelect = document.getElementById("objet");
+  const autreObjDiv = document.querySelector(".autreObj");
+  const year = document.getElementById("currentYear");
 
-  buttons.forEach((button) => {
-    button.addEventListener("click", function () {
-      const isExpanded = this.getAttribute("aria-expanded") === "false";
-      this.textContent = isExpanded ? "En savoir plus" : "Moins";
-    });
+  // maj année
+  year.textContent = new Date().getFullYear();
+
+  // Function
+  const CollapseText = (event) => {
+    const button = event.currentTarget;
+    const isExpanded = button.getAttribute("aria-expanded") === "false";
+    button.textContent = isExpanded ? "En savoir plus" : "Moins";
+  };
+
+  const visibility = () => {
+    autreObjDiv.style.display =
+      objetSelect.value === "Autre" ? "block" : "none";
+  };
+
+  // event
+  collapseButtons.forEach((button) => {
+    button.addEventListener("click", CollapseText);
   });
-});
 
-document.getElementById("subject").addEventListener("change", function () {
-  var otherSubject = document.getElementById("otherSubject");
-  if (this.value === "Autre") {
-    otherSubject.style.display = "block";
-  } else {
-    otherSubject.style.display = "none";
-  }
+  objetSelect.addEventListener("change", visibility);
 });
