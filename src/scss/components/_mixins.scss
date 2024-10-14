@@ -9,3 +9,12 @@
     rgba($secondary, 0.8)
   );
 }
+
+// centre Absolu
+
+@mixin centreAbsolu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

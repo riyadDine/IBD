@@ -1,17 +1,69 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+@use "../components/animation" as *;
+
 .annonces {
+  &__video {
+    .video-box {
+      a {
+        font-size: 3.5rem;
+        color: $secondary;
+        position: relative;
+
+        img {
+          object-fit: cover;
+          box-shadow: 2px 3px 12px $secondary;
+          border-radius: 0.5rem;
+        }
+
+        i {
+          @include centreAbsolu;
+        }
+
+        .border-animation {
+          @include centreAbsolu;
+          width: 3.5rem;
+          height: 3.5rem;
+          border: 0.37rem solid $white;
+          border-radius: 50%;
+          animation: pulse-border 1.5s linear infinite;
+          &--border-1 {
+            animation-delay: 1s;
+          }
+          &--border-2 {
+            animation-delay: 1.5s;
+          }
+        }
+      }
+
+      a:hover {
+        color: $primary;
+        img {
+          filter: blur(0.1rem);
+        }
+      }
+    }
+  }
+
   &__affiche {
+    @include gradient;
     margin-top: 2rem;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 2px 3px 12px $secondary;
+
+    p {
+      font-size: 1.1rem;
+      text-align: justify;
+      text-indent: 3rem;
+    }
 
     &--car {
-      margin: 0 auto;
       .carousel-item {
         img {
           width: 100%;
           object-fit: cover;
-          border-radius: 10px;
+          border-radius: 0.5rem;
         }
       }
     }

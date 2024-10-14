@@ -24,6 +24,5 @@ document.addEventListener("DOMContentLoaded", () => {
   collapseButtons.forEach((button) => {
     button.addEventListener("click", CollapseText);
   });
-
   objetSelect.addEventListener("change", visibility);
 });
