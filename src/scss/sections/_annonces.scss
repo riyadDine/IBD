@@ -78,4 +78,40 @@
       }
     }
   }
+
+  &__event {
+    p {
+      font-size: 1.1rem;
+    }
+    .event-poster {
+      box-shadow: 0 4px 8px rgba($black, 0.1);
+      border: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 4px 5px 12px rgba($secondary, 0.5);
+      }
+
+      .poster {
+        object-fit: cover;
+      }
+
+      .meet {
+        color: $white;
+        text-decoration: none;
+        @include gradient;
+        border: none;
+        transition: background 0.3s ease;
+
+        &:hover {
+          background: linear-gradient(
+            to right,
+            rgba($primary, 1),
+            rgba($secondary, 1)
+          );
+        }
+      }
+    }
+  }
 }
