@@ -51,11 +51,11 @@
 
   .background-diaporama .bg-img-1 {
     background-image: url("./../../images/acceuil/acceuil-1.jpg");
-    animation-delay: 0s;
+    animation-delay: 5s;
   }
   .background-diaporama .bg-img-2 {
     background-image: url("./../../images/acceuil/acceuil-2.jpg");
-    animation-delay: 5s;
+    animation-delay: 25s;
   }
   .background-diaporama .bg-img-3 {
     background-image: url("./../../images/acceuil/acceuil-3.jpg");
@@ -69,9 +69,9 @@
     background-image: url("./../../images/acceuil/acceuil-5.jpeg");
     animation-delay: 20s;
   }
-  .background-diaporama .bg-img-6 {
-    background-image: url("./../../images/acceuil/acceuil-6.jpeg");
-    animation-delay: 25s;
+  .background-diaporama .bg-img-7 {
+    background-image: url("./../../images/acceuil/acceuil-7.jpeg");
+    animation-delay: 0s;
   }
 
   @keyframes diaporama {

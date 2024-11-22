@@ -11,6 +11,8 @@
         position: relative;
 
         img {
+          width: 100%;
+          height: 300px;
           object-fit: cover;
           box-shadow: 2px 3px 12px $secondary;
           border-radius: 0.5rem;
@@ -97,7 +99,7 @@
         object-fit: cover;
       }
 
-      .meet {
+      .mod-btn {
         color: $white;
         text-decoration: none;
         @include gradient;
@@ -112,6 +114,9 @@
           );
         }
       }
+    }
+    .modal i {
+      color: $primary;
     }
   }
 }
