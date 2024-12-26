@@ -46,28 +46,28 @@
     background-size: cover;
     background-position: center;
     opacity: 0;
-    animation: diaporama 35s infinite;
+    animation: diaporama 42s infinite;
   }
 
   .background-diaporama .bg-img-1 {
     background-image: url("./../../images/acceuil/acceuil-1.jpg");
-    animation-delay: 5s;
-  }
-  .background-diaporama .bg-img-2 {
-    background-image: url("./../../images/acceuil/acceuil-2.jpg");
-    animation-delay: 25s;
+    animation-delay: 7s;
   }
   .background-diaporama .bg-img-3 {
     background-image: url("./../../images/acceuil/acceuil-3.jpg");
-    animation-delay: 10s;
+    animation-delay: 35s;
+  }
+  .background-diaporama .bg-img-2 {
+    background-image: url("./../../images/acceuil/acceuil-2.jpg");
+    animation-delay: 14s;
   }
   .background-diaporama .bg-img-4 {
     background-image: url("./../../images/acceuil/acceuil-4.jpg");
-    animation-delay: 15s;
+    animation-delay: 21s;
   }
   .background-diaporama .bg-img-5 {
     background-image: url("./../../images/acceuil/acceuil-5.jpeg");
-    animation-delay: 20s;
+    animation-delay: 28s;
   }
   .background-diaporama .bg-img-7 {
     background-image: url("./../../images/acceuil/acceuil-7.jpeg");

@@ -27,14 +27,14 @@
     }
 
     &__track--dg {
-      animation: scroll-dg 30s linear infinite;
+      animation: scroll-dg 25s linear infinite;
       img {
         box-shadow: 2px 3px 5px rgba($dark, 0.3);
       }
     }
 
     &__track--gd {
-      animation: scroll-gd 30s linear infinite;
+      animation: scroll-gd 25s linear infinite;
       img {
         box-shadow: -2px 3px 5px rgba($dark, 0.3);
       }
