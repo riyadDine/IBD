@@ -47,6 +47,16 @@
     }
   }
 
+  .more {
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
   &__affiche {
     @include gradient;
     margin-top: 2rem;
