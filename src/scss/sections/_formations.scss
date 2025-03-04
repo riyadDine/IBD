@@ -41,4 +41,11 @@
       }
     }
   }
+
+  .formation-img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 2px 3px 12px $secondary;
+    border-radius: 0.2rem;
+  }
 }
